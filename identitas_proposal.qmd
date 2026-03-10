@@ -1,3 +1,9 @@
+---
+format: 
+  typst:
+    keep-typ: true
+
+---
 
 # IDENTITAS PROPOSAL {.unnumbered}
 
