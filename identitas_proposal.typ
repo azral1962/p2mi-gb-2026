@@ -1,348 +1,157 @@
-// Some definitions presupposed by pandoc's typst output.
-#let blockquote(body) = [
-  #set text( size: 0.92em )
-  #block(inset: (left: 1.5em, top: 0.2em, bottom: 0.2em))[#body]
-]
-
-#let horizontalrule = line(start: (25%,0%), end: (75%,0%))
-
-#let endnote(num, contents) = [
-  #stack(dir: ltr, spacing: 3pt, super[#num], contents)
-]
-
-#show terms: it => {
-  it.children
-    .map(child => [
-      #strong[#child.term]
-      #block(inset: (left: 1.5em, top: -0.4em))[#child.description]
-      ])
-    .join()
-}
-
-// Some quarto-specific definitions.
-
-#show raw.where(block: true): set block(
-    fill: luma(230),
-    width: 100%,
-    inset: 8pt,
-    radius: 2pt
-  )
-
-#let block_with_new_content(old_block, new_content) = {
-  let d = (:)
-  let fields = old_block.fields()
-  fields.remove("body")
-  if fields.at("below", default: none) != none {
-    // TODO: this is a hack because below is a "synthesized element"
-    // according to the experts in the typst discord...
-    fields.below = fields.below.abs
-  }
-  return block.with(..fields)(new_content)
-}
-
-#let empty(v) = {
-  if type(v) == str {
-    // two dollar signs here because we're technically inside
-    // a Pandoc template :grimace:
-    v.matches(regex("^\\s*$")).at(0, default: none) != none
-  } else if type(v) == content {
-    if v.at("text", default: none) != none {
-      return empty(v.text)
-    }
-    for child in v.at("children", default: ()) {
-      if not empty(child) {
-        return false
-      }
-    }
-    return true
-  }
-
-}
-
-// Subfloats
-// This is a technique that we adapted from https://github.com/tingerrr/subpar/
-#let quartosubfloatcounter = counter("quartosubfloatcounter")
-
-#let quarto_super(
-  kind: str,
-  caption: none,
-  label: none,
-  supplement: str,
-  position: none,
-  subrefnumbering: "1a",
-  subcapnumbering: "(a)",
-  body,
-) = {
-  context {
-    let figcounter = counter(figure.where(kind: kind))
-    let n-super = figcounter.get().first() + 1
-    set figure.caption(position: position)
-    [#figure(
-      kind: kind,
-      supplement: supplement,
-      caption: caption,
-      {
-        show figure.where(kind: kind): set figure(numbering: _ => numbering(subrefnumbering, n-super, quartosubfloatcounter.get().first() + 1))
-        show figure.where(kind: kind): set figure.caption(position: position)
-
-        show figure: it => {
-          let num = numbering(subcapnumbering, n-super, quartosubfloatcounter.get().first() + 1)
-          show figure.caption: it => {
-            num.slice(2) // I don't understand why the numbering contains output that it really shouldn't, but this fixes it shrug?
-            [ ]
-            it.body
-          }
-
-          quartosubfloatcounter.step()
-          it
-          counter(figure.where(kind: it.kind)).update(n => n - 1)
-        }
-
-        quartosubfloatcounter.update(0)
-        body
-      }
-    )#label]
-  }
-}
-
-// callout rendering
-// this is a figure show rule because callouts are crossreferenceable
-#show figure: it => {
-  if type(it.kind) != str {
-    return it
-  }
-  let kind_match = it.kind.matches(regex("^quarto-callout-(.*)")).at(0, default: none)
-  if kind_match == none {
-    return it
-  }
-  let kind = kind_match.captures.at(0, default: "other")
-  kind = upper(kind.first()) + kind.slice(1)
-  // now we pull apart the callout and reassemble it with the crossref name and counter
-
-  // when we cleanup pandoc's emitted code to avoid spaces this will have to change
-  let old_callout = it.body.children.at(1).body.children.at(1)
-  let old_title_block = old_callout.body.children.at(0)
-  let old_title = old_title_block.body.body.children.at(2)
-
-  // TODO use custom separator if available
-  let new_title = if empty(old_title) {
-    [#kind #it.counter.display()]
-  } else {
-    [#kind #it.counter.display(): #old_title]
-  }
-
-  let new_title_block = block_with_new_content(
-    old_title_block, 
-    block_with_new_content(
-      old_title_block.body, 
-      old_title_block.body.body.children.at(0) +
-      old_title_block.body.body.children.at(1) +
-      new_title))
-
-  block_with_new_content(old_callout,
-    block(below: 0pt, new_title_block) +
-    old_callout.body.children.at(1))
-}
-
-// 2023-10-09: #fa-icon("fa-info") is not working, so we'll eval "#fa-info()" instead
-#let callout(body: [], title: "Callout", background_color: rgb("#dddddd"), icon: none, icon_color: black, body_background_color: white) = {
-  block(
-    breakable: false, 
-    fill: background_color, 
-    stroke: (paint: icon_color, thickness: 0.5pt, cap: "round"), 
-    width: 100%, 
-    radius: 2pt,
-    block(
-      inset: 1pt,
-      width: 100%, 
-      below: 0pt, 
-      block(
-        fill: background_color, 
-        width: 100%, 
-        inset: 8pt)[#text(icon_color, weight: 900)[#icon] #title]) +
-      if(body != []){
-        block(
-          inset: 1pt, 
-          width: 100%, 
-          block(fill: body_background_color, width: 100%, inset: 8pt, body))
-      }
-    )
-}
-
-
-
-#let article(
-  title: none,
-  subtitle: none,
-  authors: none,
-  date: none,
-  abstract: none,
-  abstract-title: none,
-  cols: 1,
-  margin: (x: 1.25in, y: 1.25in),
-  paper: "us-letter",
-  lang: "en",
-  region: "US",
-  font: "libertinus serif",
-  fontsize: 11pt,
-  title-size: 1.5em,
-  subtitle-size: 1.25em,
-  heading-family: "libertinus serif",
-  heading-weight: "bold",
-  heading-style: "normal",
-  heading-color: black,
-  heading-line-height: 0.65em,
-  sectionnumbering: none,
-  pagenumbering: "1",
-  toc: false,
-  toc_title: none,
-  toc_depth: none,
-  toc_indent: 1.5em,
-  doc,
-) = {
-  set page(
-    paper: paper,
-    margin: margin,
-    numbering: pagenumbering,
-  )
-  set par(justify: true)
-  set text(lang: lang,
-           region: region,
-           font: font,
-           size: fontsize)
-  set heading(numbering: sectionnumbering)
-  if title != none {
-    align(center)[#block(inset: 2em)[
-      #set par(leading: heading-line-height)
-      #if (heading-family != none or heading-weight != "bold" or heading-style != "normal"
-           or heading-color != black or heading-decoration == "underline"
-           or heading-background-color != none) {
-        set text(font: heading-family, weight: heading-weight, style: heading-style, fill: heading-color)
-        text(size: title-size)[#title]
-        if subtitle != none {
-          parbreak()
-          text(size: subtitle-size)[#subtitle]
-        }
-      } else {
-        text(weight: "bold", size: title-size)[#title]
-        if subtitle != none {
-          parbreak()
-          text(weight: "bold", size: subtitle-size)[#subtitle]
-        }
-      }
-    ]]
-  }
-
-  if authors != none {
-    let count = authors.len()
-    let ncols = calc.min(count, 3)
-    grid(
-      columns: (1fr,) * ncols,
-      row-gutter: 1.5em,
-      ..authors.map(author =>
-          align(center)[
-            #author.name \
-            #author.affiliation \
-            #author.email
-          ]
-      )
-    )
-  }
-
-  if date != none {
-    align(center)[#block(inset: 1em)[
-      #date
-    ]]
-  }
-
-  if abstract != none {
-    block(inset: 2em)[
-    #text(weight: "semibold")[#abstract-title] #h(1em) #abstract
-    ]
-  }
-
-  if toc {
-    let title = if toc_title == none {
-      auto
-    } else {
-      toc_title
-    }
-    block(above: 0em, below: 2em)[
-    #outline(
-      title: toc_title,
-      depth: toc_depth,
-      indent: toc_indent
-    );
-    ]
-  }
-
-  if cols == 1 {
-    doc
-  } else {
-    columns(cols, doc)
-  }
-}
-
-#set table(
-  inset: 6pt,
-  stroke: none
+#set page(
+  paper: "a4",
+  margin: (top: 2cm, bottom: 2cm, left: 2.2cm, right: 2.2cm),
 )
 
-#show: doc => article(
-  pagenumbering: "1",
-  toc_title: [Table of contents],
-  toc_depth: 3,
-  cols: 1,
-  doc,
+#set text(
+  font: "Times New Roman",
+  size: 11pt,
 )
 
-#block[
-#heading(
-level: 
-1
-, 
-numbering: 
-none
-, 
-[
-IDENTITAS PROPOSAL
+#set par(justify: true)
+
+#let dots(n: 34) = "." * n
+#let fillline(width: 100%) = box(width: width, inset: 0pt)[#h(0pt)]
+#let sigline(width: 6cm) = box(
+  width: width,
+  height: 1.2em,
+  stroke: (bottom: 0.8pt),
+  inset: 0pt,
+)[]
+
+#align(center)[
+  #text(weight: "bold", 13pt)[IDENTITAS PROPOSAL]
 ]
-)
-]
+
+#v(0.6em)
+
 #table(
-  columns: 3,
-  stroke: none, // Remove default grid lines
-  table.hline(stroke: 1pt), // Add a top horizontal line (applied to header by default)
-  [Header 1], [Header 2], [Header 3],
-  table.hline(stroke: 1pt), // Add a line after the header
-  [Cell A1], [Cell A2], [Cell A3],
-  [Cell B1], [Cell B2], [Cell B3],
-  table.hline(stroke: 1pt), // Add a bottom line
+  columns: (0.7cm, 4.8cm, 0.4cm, 1fr),
+  inset: 0pt,
+  stroke: none,
+  column-gutter: 0.1cm,
+  row-gutter: 0.15cm,
+)[
+  [1.], [Judul], [:], [Armein Z Langi],
+
+  [2.], [Tim Riset], [], [],
+
+  [], [2.1 Ketua Tim], [:], [],
+
+  [], [#h(0.6cm) a.\ \ Nama Lengkap], [:], [#h(100%)],
+  [], [#h(0.6cm) b.\ \ Jabatan Fungsional/Golongan], [:], [#h(100%)],
+  [], [#h(0.6cm) c.\ \ NIP], [:], [#h(100%)],
+  [], [#h(0.6cm) d.\ \ Fakultas/Sekolah/Pusat], [:], [#h(100%)],
+  [], [#h(0.6cm) e.\ \ Kelompok Keahlian], [:], [#h(100%)],
+  [], [#h(0.6cm) f.\ \ Alamat /Telp/Fax/E-mail], [:], [#h(100%)],
+]
+
+#v(0.5em)
+
+#table(
+  columns: (0.7cm, 4.8cm, 0.4cm, 1fr),
+  inset: 0pt,
+  stroke: none,
+  column-gutter: 0.1cm,
+)[
+  [], [2.2 Anggota Tim Riset:], [], [],
+]
+
+#v(0.3em)
+
+#table(
+  columns: (0.8cm, 4.3cm, 3.1cm, 3.0cm, 1.5cm, 1.2cm),
+  align: center + horizon,
+  stroke: 0.6pt,
+  inset: 4pt,
+)[
+  [*No.*],
+  [*Nama dan Gelar* \ *Akademik*],
+  [*Bidang Keahlian*],
+  [*Unit Kerja / Lembaga*],
+  [*Alokasi Waktu Jam/mg*],
+  [*bulan*],
+
+  [1.], [], [], [], [], [],
+  [2.], [], [], [], [], [],
+]
+
+#v(1.1em)
+
+#table(
+  columns: (0.7cm, 4.8cm, 0.4cm, 1fr),
+  inset: 0pt,
+  stroke: none,
+  column-gutter: 0.1cm,
+  row-gutter: 0.25cm,
+)[
+  [3.], [Biaya yang diusulkan], [:], [Rp. 150.000.000,-],
+
+  [4.], [
+    Target keluaran Riset \
+    (minimum 1 jurnal internasional bereputasi Q1)
+  ], [:], [],
+]
+
+#v(0.4em)
+
+#table(
+  columns: (0.8cm, 4.2cm, 4.6cm, 4.0cm),
+  align: center + horizon,
+  stroke: 0.6pt,
+  inset: 4pt,
+)[
+  [*No.*],
+  [*Judul*],
+  [*Nama Jurnal/Publikasi*],
+  [*Keterangan* \
+   #text(size: 9pt)[(Isikan dengan Q1/Q2/Q3/Q4/Konferensi)]],
+
+  [1.], [], [], [],
+  [2.], [], [], [],
+]
+
+#v(1.2em)
+
+Proposal ini belum pernah didanai oleh atau diusulkan ke sumber lain. Apabila target
+luaran penelitian sebagaimana disebutkan di atas tidak tercapai, maka saya bersedia
+mengambil langkah-langkah korektif dan bertanggung jawab penuh atas segala
+konsekuensi penggunaan dana penelitian tersebut.
+
+#v(2.8cm)
+
+
+// Define the signature line function
+#let sigline(text_content, width: 5cm) = {
+  stack(dir: ltr, spacing: 0.5em,
+    text_content + ":",
+    box(width: width, line(length: 100%))
+  )
+}
+
+// Usage Example
+#v(2cm) // Space for signature
+#sigline[Signed] #h(2em) #sigline[Date]
+
+// Another example for Name/Date
+#v(1cm)
+#grid(
+  columns: (auto, 1fr, auto, 1fr),
+  rows: 2,
+  gutter: 1em,
+  [Name:], [#line(length: 100%)],
+  [Date:], [#line(length: 100%)]
 )
-+ #strong[\1. Judul:] #emph[Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems]
 
-+ #strong[\2. Tim Riset]
 
-  + #strong[2.1 Ketua Tim:]
+#align(right)[
+  Bandung,
 
-    + a. Nama Lengkap: Prof.~Ir. Armein Z. R. Langi, M.Sc., Ph.D.
+  Ketua Tim Riset
 
-    + b. Jabatan Fungsional/Golongan: Guru Besar
+  #v(2.8cm)
 
-    + c. NIP: \[NIP\]
+  #sigline[Armein]
 
-    + d. Fakultas/Sekolah/Pusat: Sekolah Teknik Elektro dan Informatika (STEI)
-
-    + e. Kelompok Keahlian: \[Nama KK\] f.~Alamat /Telp/Fax/E-mail: \[Kontak\]
-
-    + #strong[2.2 Anggota Tim Riset:] #emph[(Tabel Anggota Tim - diisi dengan mahasiswa S3/Postdoc sesuai mandat keterlibatan asisten peneliti)]
-
-    + #strong[\3. Biaya yang diusulkan:] Rp. 150.000.000,-
-
-    + #strong[\4. Target keluaran Riset:] 1 Jurnal Internasional Bereputasi Q1
-
-Proposal ini belum pernah didanai oleh atau diusulkan ke sumber lain. Apabila target luaran penelitian sebagaimana disebutkan di atas tidak tercapai, maka saya bersedia mengambil langkah-langkah korektif dan bertanggung jawab penuh atas segala konsekuensi penggunaan dana penelitian tersebut.
-
-Bandung, 10 Maret 2026 Ketua Tim Riset
-
-#strong[(Prof.~Ir. Armein Z. R. Langi, M.Sc., Ph.D.)]
+  NIP. #sigline[12345678]
+]
