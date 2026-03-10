@@ -2,155 +2,142 @@
 format: 
     typst :
         keep-typ: true
-        toc: true
 ---
 
-### PROPOSAL
+```{=typst}
+#outline()
+#pagebreak()
+#image("STEI/pg_0007.pdf")
+```
+{{< pagebreak >}}
 
-### RISET PPMI STEI 2026 – RISET GURU BESAR
+# 1. RINGKASAN PROPOSAL
 
-**Ketua Tim Peneliti:** Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D. **KK:** \[Nama Kelompok Keahlian\]
-
-**SEKOLAH TEKNIK ELEKTRO DAN INFORMATIKA** **INSTITUT TEKNOLOGI BANDUNG** **MARET 2026**
-
-------------------------------------------------------------------------
-
-**JUDUL** *Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems*
-
-**DAFTAR ISI** IDENTITAS PROPOSAL (1) 1 RINGKASAN PROPOSAL (2) 2 PENDAHULUAN (2) 2.1 Latar belakang masalah (2) 2.2 Tujuan riset (3) 3 METODOLOGI (3) 4 DAFTAR PUSTAKA (4) 5 INDIKATOR KEBERHASILAN (TARGET CAPAIAN) (4) 6 JADWAL PELAKSANAAN (4) 7 PETA JALAN (ROAD MAP) RISET (5) 8 USULAN BIAYA RISET (5) 8.1 Belanja pegawai (5) 8.2 Belanja barang (6) 8.3 Belanja jasa (6) 9 CV TIM PENELITI (6)
-
-------------------------------------------------------------------------
-
-### IDENTITAS PROPOSAL
-
-**1. Judul:** *Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems* **2. Tim Riset** **2.1 Ketua Tim:** a. Nama Lengkap: Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D. b. Jabatan Fungsional/Golongan: Guru Besar c. NIP: \[NIP\] d. Fakultas/Sekolah/Pusat: Sekolah Teknik Elektro dan Informatika (STEI) e. Kelompok Keahlian: \[Nama KK\] f. Alamat /Telp/Fax/E-mail: \[Kontak\] **2.2 Anggota Tim Riset:** *(Tabel Anggota Tim - diisi dengan mahasiswa S3/Postdoc sesuai mandat keterlibatan asisten peneliti)* **3. Biaya yang diusulkan:** Rp. 150.000.000,- **4. Target keluaran Riset:** 1 Jurnal Internasional Bereputasi Q1
-
-Proposal ini belum pernah didanai oleh atau diusulkan ke sumber lain. Apabila target luaran penelitian sebagaimana disebutkan di atas tidak tercapai, maka saya bersedia mengambil langkah-langkah korektif dan bertanggung jawab penuh atas segala konsekuensi penggunaan dana penelitian tersebut.
-
-Bandung, 10 Maret 2026 Ketua Tim Riset
-
-**(Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.)**
-
-------------------------------------------------------------------------
-
-### 1. RINGKASAN PROPOSAL
-
-*(Maks. 300 kata)* Rekayasa sistem multidisiplin modern tengah beralih dari optimasi artefak fisik menuju perancangan sistem sosio-teknis (*Socio-Technical Systems*) yang kompleks. Paradigma tradisional gagal mengakomodasi elemen kesejahteraan psikologis manusia dan kompresi nilai secara bersamaan. Riset ini mengusulkan evolusi paradigma *Triune-Intelligence Smart Engineering* (TISE) menuju **TISE 3.0**, sebuah Meta-Artefak autopoietik yang dirancang untuk menjawab *The Great Question*: *"Bagaimana menyatukan termodinamika penciptaan nilai fisik (Sistem ENERGON/PSKVE), orkestrasi agen otonom (Siklus PUDAL), dan pemberdayaan Identitas Naratif pemangku kepentingan ke dalam satu meta-arsitektur rekursif berbasis prompt?"*.
+Rekayasa sistem multidisiplin modern tengah beralih dari optimasi artefak fisik menuju perancangan sistem sosio-teknis (*Socio-Technical Systems*) yang kompleks. Paradigma tradisional gagal mengakomodasi elemen kesejahteraan psikologis manusia dan kompresi nilai secara bersamaan. Riset ini mengusulkan evolusi paradigma *Triune-Intelligence Smart Engineering* (TISE) menuju **TISE 3.0**, sebuah Meta-Artefak autopoietik yang dirancang untuk menjawab *Research Question*: *"Bagaimana menyatukan termodinamika penciptaan nilai fisik (Sistem ENERGON/PSKVE), orkestrasi agen otonom (Siklus PUDAL), dan pemberdayaan Identitas Naratif pemangku kepentingan ke dalam satu meta-arsitektur rekursif berbasis prompt?"*.
 
 Riset ini akan membangun platform TISE 3.0 menggunakan integrasi *Multi-Agent System* (MAS) berbasis *Large Language Models* (LLMs) yang bertindak sebagai *Meta-Architect, Generative Engineer*, dan *Critic*. Sistem ini akan secara otomatis mendekomposisi *prompt* bahasa alami berentropi tinggi menjadi spesifikasi arsitektur SysML v2 berentropi rendah, lalu mengeksekusinya untuk menghasilkan artefak TISE 2.0. Artefak yang dihasilkan dirancang secara khusus untuk memfasilitasi "Siklus Reflektif" yang memberdayakan manusia sebagai *Protagonis-Penulis* atas narasi hidup mereka. Validasi framework akan dilakukan menggunakan model W-Model yang mengintegrasikan lapisan ASTF (*Application, System, Technology, Fundamental*) dengan matriks evaluasi PICOC. Hasil akhir dari riset ini adalah bukti konsep kompresi nilai ($V=U/C$) yang akan dipublikasikan di jurnal internasional bereputasi Q1, memperkuat target ITB dalam QS WUR 150.
 
-### 2. PENDAHULUAN
+# 2. PENDAHULUAN
 
-Paparan ini mempresentasikan meta-arsitektur dari **Triune-Intelligence Smart Engineering (TISE 3.0)**, sebuah kerangka kerja berbasis *prompt* yang dirancang untuk sistem multidisiplin yang diperkuat oleh narasi. Materi ini merupakan bagian dari Proposal Riset PPMI STEI ITB 2026 yang diajukan oleh Peneliti Utama, Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D..
+Proposal ini mempresentasikan meta-arsitektur dari **Triune-Intelligence Smart Engineering (TISE 3.0)**, sebuah kerangka kerja berbasis *prompt* yang dirancang untuk sistem multidisiplin yang diperkuat oleh narasi. Materi ini merupakan bagian dari Proposal Riset PPMI STEI ITB 2026 yang diajukan oleh Peneliti Utama, Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D..
 
-#### 2.1 Latar belakang masalah
+## 2.1 Latar belakang masalah
 
-Rekayasa tradisional saat ini telah mencapai batas asimtotiknya dalam hal efektivitas sistem. Terdapat krisis fundamental di mana:
+Sebagaimana diperlihatkan pada @fig-masalah, rekayasa tradisional saat ini telah mencapai batas asimtotiknya dalam hal efektivitas sistem. Terdapat krisis fundamental di mana:
 
-* Paradigma lama memisahkan komputasi teknis dari kondisi psikologis manusia.
+- Paradigma lama memisahkan komputasi teknis dari kondisi psikologis manusia.
 
+- Manusia direduksi menjadi sekadar operator mekanis.
 
-* Manusia direduksi menjadi sekadar operator mekanis.
-
-
-* Sistem modern gagal beroperasi lebih jauh karena tidak mengakomodasi peran manusia sebagai ***Homo Narrans***—pencari makna dan pencerita atas kehidupannya sendiri.
-
-Berdasarkan pendekatan *Backward Strategy*, argumen riset ini dibangun untuk menjustifikasi urgensi penciptaan Meta-Artefak rekayasa. Pendekatan rekayasa sistem tradisional saat ini telah mencapai batas asimtotiknya karena memisahkan dimensi teknis komputasional dari dimensi psikologis manusia. Dalam rekayasa konvensional, manusia direduksi menjadi sekadar operator atau "aktor eksternal," bukan sebagai pencerita (*homo narrans*) yang mencari makna dan otonomi.
+- Sistem modern gagal beroperasi lebih jauh karena tidak mengakomodasi peran manusia sebagai ***Homo Narrans***—pencari makna dan pencerita atas kehidupannya sendiri.
 
 ::: {#fig-masalah}
 ```{=typst}
 #image("pdfs/pg_0002.pdf")
 ```
-
-Masalah
+Rekayasa tradisional telah mencapai batas asimptotiknya.
 :::
 
-Evolusi paradigma rekayasa terbagi menjadi tiga fase utama:
+Selanjutnya sebagaimana diperlihatkan pada @fig-evolusi, evolusi paradigma rekayasa terbagi menjadi tiga fase utama:
 
-* 
-**SE Dasar:** Berfokus pada optimasi fisik menggunakan mekanisme model PSKVE dan mesin ENERGON untuk mengubah potensi menjadi kerja kinetik.
+- **SE Dasar:** Berfokus pada optimasi fisik menggunakan mekanisme model PSKVE dan mesin ENERGON untuk mengubah potensi menjadi kerja kinetik.
 
+- **TISE 1.0 & 2.0:** Berfokus pada sistem sosio-teknis dengan mekanisme agen otonom (siklus PUDAL) dan ko-kreasi naratif, di mana manusia diberdayakan sebagai protagonis.
 
-* 
-**TISE 1.0 & 2.0:** Berfokus pada sistem sosio-teknis dengan mekanisme agen otonom (siklus PUDAL) dan ko-kreasi naratif, di mana manusia diberdayakan sebagai protagonis.
+- **Krisis Saat Ini:** Membangun ekosistem TISE 2.0 secara manual terbukti sangat mahal, lambat, dan memiliki kompleksitas kognitif yang tinggi, sehingga membatasi skalabilitas.
 
-
-* 
-**Krisis Saat Ini:** Membangun ekosistem TISE 2.0 secara manual terbukti sangat mahal, lambat, dan memiliki kompleksitas kognitif yang tinggi, sehingga membatasi skalabilitas.
+::: {#fig-evolusi}
+```{=typst}
+#image("pdfs/pg_0003.pdf")
+```
+Evolusi paradigma rekayasa: menuju sistem sosio-teknis.
+:::
 
 Evolusi TISE dibangun untuk menutup kesenjangan ini secara bertahap. Model dasar *Smart Engineering* (SE) memodelkan realitas dalam ruang 5 dimensi PSKVE (Produk, Servis, *Knowledge*, *Value*, *Environment*) yang digerakkan oleh "Mesin ENERGON" (mengubah potensi menjadi kerja kinetik). TISE 1.0 mengintegrasikan siklus PUDAL (*Perceive, Understand, Decision, Act, Learning*) untuk mengubah artefak statis menjadi agen otonom. Selanjutnya, TISE 2.0 melakukan pergeseran radikal dari "orkestrasi tugas" menjadi "ko-kreasi naratif," di mana Naskah (*Script*) sistem tidak lagi sekadar *prompt* instruksi, melainkan Epik Personal yang memberdayakan *Identitas Naratif* (Agensi dan Penebusan) dari *stakeholder*.
 
-Namun, membangun ekosistem TISE 2.0 secara manual sangat mahal dan kompleks. Oleh karena itu, muncul **The Great Question**: *"Bagaimana kita merekayasa sistem yang mampu merekayasa sistem tersebut secara mandiri (autopoietik) sekaligus memadukan ENERGON, PUDAL, dan Pemberdayaan Naratif?"*. Kebutuhan ini mendasari urgensi TISE 3.0 sebagai "Meta-Artefak" berbasis *prompt* yang beroperasi sebagai Konstruktor Universal untuk melakukan "Kompresi Nilai Termodinamika" ($V = U/C$).
+Namun, membangun ekosistem TISE 2.0 secara manual sangat mahal dan kompleks. Oleh karena itu, muncul **The Great Question**: *"Bagaimana kita merekayasa sistem yang mampu merekayasa sistem tersebut secara mandiri (autopoietik) sekaligus memadukan ENERGON, PUDAL, dan Pemberdayaan Naratif?"*. (Lihat @fig-questions.) Kebutuhan ini mendasari urgensi TISE 3.0 sebagai "Meta-Artefak" berbasis *prompt* yang beroperasi sebagai Konstruktor Universal untuk melakukan "Kompresi Nilai Termodinamika" ($V = U/C$).
 
-Pertanyaan besar dalam TISE 3.0 adalah bagaimana menyatukan termodinamika fisik, identitas naratif, dan orkestrasi otonom ke dalam satu meta-arsitektur rekursif yang mampu membangun dirinya sendiri.
+::: {#fig-questions}
+```{=typst}
+#image("pdfs/pg_0004.pdf")
+```
+Pertanyaan besar dari TISE 3.0.
+:::
 
-TISE 3.0 beroperasi sebagai **Konstruktor Universal Berbasis Prompt** dengan proses sebagai berikut:
-
-1. 
-**High-Entropy Prompt:** Input berupa niat dan narasi bahasa alami manusia.
-
-
-2. 
-**TISE 3.0 Meta-Artifact:** Melakukan kompresi nilai termodinamika berdasarkan formula $V=U/C$.
+Pertanyaan besar dalam TISE 3.0 adalah bagaimana menyatukan termodinamika fisik, identitas naratif, dan orkestrasi otonom ke dalam satu meta-arsitektur rekursif yang mampu membangun dirinya sendiri.(Lihat @fig-meta_tise)
 
 
-3. 
-**Low-Entropy SysML v2:** Menghasilkan spesifikasi arsitektur sistem yang terstruktur.
 
+::: {#fig-meta_tise}
+```{=typst}
+#image("meta-tise.png")
+```
+Konsep TISE 3.0: sebuah meta sistem.
+:::
+Sebagaimana diperlihatkan pada @fig-prompt, TISE 3.0 beroperasi sebagai **Konstruktor Universal Berbasis Prompt** dengan proses sebagai berikut:
 
-4. 
-**TISE 2.0 Artifact:** Terciptanya sistem sosio-teknis yang siap memberdayakan naratif manusia.
+1.  **High-Entropy Prompt:** Input berupa niat dan narasi bahasa alami manusia.
 
+2.  **TISE 3.0 Meta-Artifact:** Melakukan kompresi nilai termodinamika berdasarkan formula $V=U/C$.
 
-#### 2.2 Tujuan riset
+3.  **Low-Entropy SysML v2:** Menghasilkan spesifikasi arsitektur sistem yang terstruktur.
 
+4.  **TISE 2.0 Artifact:** Terciptanya sistem sosio-teknis yang siap memberdayakan naratif manusia.
+
+::: {#fig-prompt}
+```{=typst}
+#image("pdfs/pg_0005.pdf")
+```
+TISE 3.0: Konstruktor uniuversal berbasis prompt.
+:::
+
+## 2.2 Tujuan riset
 
 1.  Memformulasikan landasan teoritis dan arsitektural TISE 3.0 sebagai Meta-Artefak Rekayasa berbasis Sistem Multi-Agen (MAS).
 2.  Membangun dan mensimulasikan purwarupa TISE 3.0 yang mengonversi *prompt* entropi tinggi menjadi artefak TISE 2.0 (melalui spesifikasi SysML v2).
 3.  Mempublikasikan penemuan ini sebagai *The Great Answer* di Jurnal Internasional Bereputasi Q1 (Target: IEEE Transactions).
 
+Sebagaimana digambarkan pada @fig-MAS, Implementasi ini menggunakan sistem multi-agen berbasis *Large Language Model* (LLM) yang terdiri dari:
 
-Implementasi ini menggunakan sistem multi-agen berbasis *Large Language Model* (LLM) yang terdiri dari:
+- **Meta-Architect Agent:** Menggunakan *Chain-of-Thought* untuk memecah *prompt* menjadi rancangan arsitektur berstandar SysML v2.
 
-* 
-**Meta-Architect Agent:** Menggunakan *Chain-of-Thought* untuk memecah *prompt* menjadi rancangan arsitektur berstandar SysML v2.
+- **Generative Engineer Agent:** Mengeksekusi rancangan menjadi naskah teknis dan kode algoritma (Partitur Generatif).
 
+- **Critic Agent:** Menguji desain secara ketat terhadap batasan hukum alam atau *Natural Intelligence*.
 
-* 
-**Generative Engineer Agent:** Mengeksekusi rancangan menjadi naskah teknis dan kode algoritma (Partitur Generatif).
+::: {#fig-MAS}
+```{=typst}
+#image("pdfs/pg_0006.pdf")
+```
+Orketrasi Sistem Multi-Agen (MAS) berbasis LLM.
+:::
 
+# 3. METODOLOGI
 
-* 
-**Critic Agent:** Menguji desain secara ketat terhadap batasan hukum alam atau *Natural Intelligence*.
+Penelitian ini menggunakan **W-Model TISE** sebagai kerangka kerja validasi berkelanjutan (lihat @fig-W_Model):
 
+- **Dekomposisi ASTF:** Kompresi semantik niat pengguna ke dalam logika ontologi empat level: *Application, System, Technology,* dan *Fundamental*.
 
+- **Validasi PICOC:** Penentuan kriteria pengujian untuk mengukur efektivitas katalisator naratif pengguna melalui integrasi dan eksekusi FTSA.
 
-### 3. METODOLOGI
-
-
-Penelitian ini menggunakan **W-Model TISE** sebagai kerangka kerja validasi berkelanjutan:
-
-* 
-**Dekomposisi ASTF:** Kompresi semantik niat pengguna ke dalam logika ontologi empat level: *Application, System, Technology,* dan *Fundamental*.
-
-
-* 
-**Validasi PICOC:** Penentuan kriteria pengujian untuk mengukur efektivitas katalisator naratif pengguna melalui integrasi dan eksekusi FTSA.
-
-
-
-
-Berdasarkan *Backward Strategy* untuk mencapai klaim kompresi nilai, metodologi riset ini akan dieksekusi menggunakan kerangka kerja **TISE W-Model** (Evolusi dari V-Model). W-Model menjamin validasi berkelanjutan di seluruh lapisan arsitektur sosio-teknis:
+Untuk mencapai klaim kompresi nilai, metodologi riset ini akan dieksekusi menggunakan kerangka kerja **TISE W-Model** (Evolusi dari V-Model). W-Model menjamin validasi berkelanjutan di seluruh lapisan arsitektur sosio-teknis:
 
 1.  **Outer Left Leg (Dekomposisi ASTF):** Proses dimulai dengan kompresi semantik. Membangun sistem yang menerjemahkan niat *stakeholder* (bahasa alami) menjadi spesifikasi logis menggunakan ontologi PSKVE pada 4 level: *Application, System, Technology, Fundamental* (ASTF).
 2.  **Inner Left Leg (Desain Internal MAS):** Rekayasa agen AI berbasis LLM (Kecerdasan Rasional) yang bertindak sebagai:
-    -   *Meta-Architect Agent:* Menggunakan *Chain-of-Thought* untuk menghasilkan arsitektur SysML v2.
-    -   *Generative Engineer Agent:* Mengeksekusi SysML v2 menjadi kode algoritma (naskah dan partitur).
-    -   *Critic Agent:* Menguji desain terhadap batasan hukum alam (*Natural Intelligence*).
+    - *Meta-Architect Agent:* Menggunakan *Chain-of-Thought* untuk menghasilkan arsitektur SysML v2.
+    - *Generative Engineer Agent:* Mengeksekusi SysML v2 menjadi kode algoritma (naskah dan partitur).
+    - *Critic Agent:* Menguji desain terhadap batasan hukum alam (*Natural Intelligence*).
 3.  **Inner Right Leg (Persiapan Validasi PICOC):** Mendefinisikan kriteria validasi berbasis *Population, Intervention, Control, Outcome, Context* (PICOC) untuk mengukur keberhasilan kompresi nilai dan efektivitas katalisator naratif (*Prompts 2.0*) dalam membangun Agensi pengguna.
 4.  **Outer Right Leg (Integrasi dan Pengujian FTSA):** Melakukan eksekusi sistem dari Fundamental ke Aplikasi. Purwarupa akan diuji dalam skenario *Digital Twin*. Evaluasi akhir akan mengukur metrik Rasio Kompresi ($CR = K_{persyaratan}/K_{solusi}$) dan tingkat koherensi naratif yang dihasilkan oleh instrumen TISE 2.0.
 
-### 4. DAFTAR PUSTAKA
+::: {#fig-W_Model}
+```{=typst}
+#image("pdfs/pg_0007.pdf")
+```
+Kerangka kerja validasi berkelanjutan.
+:::
+
+# 4. DAFTAR PUSTAKA
 
 1.  Langi, A. Z. R., "Meta-TISE: Arsitektur Rekursif Kompresi Nilai dalam Sistem Rekayasa Cerdas Triune-Intelligence", TISE Whitepaper, 2026.
 2.  Langi, A. Z. R., "Konsep TISE 2.0: Pemberdayaan Naratif Stakeholder", TISE Whitepaper, 2026.
@@ -158,48 +145,55 @@ Berdasarkan *Backward Strategy* untuk mencapai klaim kompresi nilai, metodologi 
 4.  McAdams, D. P. "Narrative Identity." Wikipedia/Psychological Research.
 5.  Shannon, C. E. "A Mathematical Theory of Communication." The Bell System Technical Journal, 1948.
 
-### 5. INDIKATOR KEBERHASILAN (TARGET CAPAIAN)
+# 5. INDIKATOR KEBERHASILAN (TARGET CAPAIAN)
 
-
-Target utama riset ini adalah publikasi pada jurnal **IEEE Transactions on Systems, Man, and Cybernetics: Systems** yang direncanakan untuk submisi pada 30 November 2026. Secara institusional, riset ini bertujuan membuktikan konsep efisiensi kompresi nilai termodinamika dan mendukung pencapaian target reputasi akademik ITB menuju **QS WUR 150**.
+Target utama riset ini adalah publikasi pada jurnal **IEEE Transactions on Systems, Man, and Cybernetics: Systems** yang direncanakan untuk submisi pada 30 November 2026.(@fig-ROI.) Secara institusional, riset ini bertujuan membuktikan konsep efisiensi kompresi nilai termodinamika dan mendukung pencapaian target reputasi akademik ITB menuju **QS WUR 150**.
 
 Sesuai mandat PPMI, target minimal adalah 1 publikasi Q1.
 
 | No. | Nama Jurnal Q1 (Target) | Judul (Tentatif) | Rencana Submit |
-|------------------|------------------|------------------|------------------|
+|---------------|------------------|-------------------------|---------------|
 | 1\. | IEEE Transactions on Systems, Man, and Cybernetics: Systems (Q1) | *Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems* | 30 Nov 2026 |
 
 *Publikasi akan mencantumkan acknowledgement yang diwajibkan: "This research is funded by Riset PPMI STEI 2026 - Riset Guru Besar..."*
 
-### 6. JADWAL PELAKSANAAN
+::: {#fig-ROI}
+```{=typst}
+#image("pdfs/pg_0010.pdf")
+```
+Tujuan dan Impak riset ini
+:::
 
-Proyek ini direncanakan berjalan dari **April hingga Desember 2026**. Tahapan mencakup spesifikasi ASTF, pengembangan MAS, desain *Digital Twin*, hingga finalisasi manuskrip untuk jurnal Q1 pada bulan ke-9.
+# 6. JADWAL PELAKSANAAN
 
-Total alokasi anggaran adalah sebesar **Rp 150.000.000**, dengan rincian:
-
-* 
-**30% Belanja Pegawai:** Untuk Peneliti Utama dan Asisten.
-
-
-* 
-**28,3% Belanja Barang:** Langganan API LLM dan lisensi simulasi SysML v2.
-
-
-* 
-**41,7% Belanja Jasa:** Investasi luaran untuk publikasi jurnal Q1 (APC), *proofreading*, serta komputasi awan/GPU.
-
+Sebagaimana di perloihatkan pada @fig-Jadwal, Proyek ini direncanakan berjalan dari **April hingga Desember 2026**. Tahapan mencakup spesifikasi ASTF, pengembangan MAS, desain *Digital Twin*, hingga finalisasi manuskrip untuk jurnal Q1 pada bulan ke-9.
 
 Penelitian dilaksanakan selama 9 bulan (April – Desember 2026).
 
--   **Bulan 1-2 (April-Mei):** Outer Left W-Model (Spesifikasi ASTF & Model Konseptual PSKVE/Energon).
--   **Bulan 3-4 (Juni-Juli):** Inner Left W-Model (Pengembangan *Multi-Agent System* & Integrasi SysML v2).
--   **Bulan 5-6 (Ags-Sep):** Inner Right W-Model (Desain Skenario Validasi PICOC & *Digital Twin*).
--   **Bulan 7-8 (Okt-Nov):** Outer Right W-Model (Pengujian Kompresi Nilai $V=U/C$, Evaluasi Naskah TISE 2.0). Penulisan Draf Jurnal dengan *Backward Strategy*.
--   **Bulan 9 (Desember):** Finalisasi *Manuscript*, *Submit* ke Jurnal IEEE (Q1), dan Pelaporan PPMI.
+- **Bulan 1-2 (April-Mei):** Outer Left W-Model (Spesifikasi ASTF & Model Konseptual PSKVE/Energon).
+- **Bulan 3-4 (Juni-Juli):** Inner Left W-Model (Pengembangan *Multi-Agent System* & Integrasi SysML v2).
+- **Bulan 5-6 (Ags-Sep):** Inner Right W-Model (Desain Skenario Validasi PICOC & *Digital Twin*).
+- **Bulan 7-8 (Okt-Nov):** Outer Right W-Model (Pengujian Kompresi Nilai $V=U/C$, Evaluasi Naskah TISE 2.0). Penulisan Draf Jurnal dengan *Backward Strategy*.
+- **Bulan 9 (Desember):** Finalisasi *Manuscript*, *Submit* ke Jurnal IEEE (Q1), dan Pelaporan PPMI.
 
-### 7. PETA JALAN (ROAD MAP) RISET
+::: {#fig-Jadwal}
+```{=typst}
+#image("pdfs/pg_0008.pdf")
+```
+Jadwal eksekusi terukur.
+:::
+
+# 7. PETA JALAN (ROAD MAP) RISET
 
 Berdasarkan rancangan proposal dan landasan konseptual dari sumber yang ada, berikut adalah rincian Peta Jalan (Road Map) Penelitian TISE (Triune-Intelligence Smart Engineering) yang menggambarkan evolusi sistem dari optimasi teknis hingga rekayasa meta-artefak autopoietik:
+
+
+::: {#fig-peta}
+```{=typst}
+#image("evolusi.png")
+```
+Peta jalan riset TISE.
+:::
 
 **Tahap 1: Formulasi Fondasi *Smart Engineering* (Selesai)** \* **Fokus Utama:** Pemodelan Hukum ENERGON dan Ruang PSKVE. \* **Deskripsi:** Tahap ini meletakkan dasar fundamental bagi TISE dengan mendefinisikan realitas ke dalam ruang 5 dimensi PSKVE: *Product* (Kapasitas kerja fisik), *Service* (Kapasitas pelayanan pemenuhan kebutuhan), *Knowledge* (Kapasitas intelektual/algoritma), *Value* (Kapasitas nilai ekonomi/sosial), dan *Environment* (Kapasitas lingkungan dan keberlanjutan). Sistem dimodelkan sebagai "Mesin ENERGON" (sebuah sistem yang mengubah potensi menjadi kerja kinetik) melalui siklus termodinamika tertutup: *Input, Encoder, Core Storage/Flywheel, Decoder,* dan *Exhaust*.
 
@@ -211,47 +205,56 @@ Berdasarkan rancangan proposal dan landasan konseptual dari sumber yang ada, ber
 
 **Tahap 5: Masa Depan - Skalabilitas Sosio-Teknis & *Crowdsourced Engineering*** \* **Fokus Utama:** Desain partisipatif *Crowdsourced Engineering* untuk tantangan berskala besar seperti *Smart City*. \* **Deskripsi:** Setelah TISE 3.0 matang, peta jalan akan mengarah pada penyelesaian tantangan di level masyarakat (*Social Intelligence*). Sistem ini akan mengintegrasikan *CrowdRE* (Rekayasa Persyaratan Berbasis Kerumunan), di mana masyarakat bertindak sebagai "sensor entropi" (melaporkan masalah) dan "filter nilai" (memvalidasi solusi etis). Tujuannya adalah memperluas TISE untuk merekayasa tata kelola kota pintar, ekosistem kesehatan publik, dan jaringan energi yang berkelanjutan, menyelaraskan kinerja algoritma secara masif dengan nilai-nilai dan ekologi umat manusia.
 
-1.  **Tahap 1 (Selesai):** Formulasi *Smart Engineering* dasar (Model PSKVE dan Hukum ENERGON).
-2.  **Tahap 2 (Selesai):** TISE 1.0 (Integrasi Kecerdasan Triune & Siklus Otonom PUDAL).
-3.  **Tahap 3 (Selesai):** TISE 2.0 (Pemberdayaan Identitas Naratif, Partitur Generatif).
-4.  **Tahap 4 (Fokus Riset Ini - 2026):** TISE 3.0 (Meta-Artefak Rekursif, Orkestrasi *Multi-Agent* LLM, Kompresi Semantik SysML v2).
-5.  **Tahap 5 (Masa Depan):** Desain partisipatif *Crowdsourced Engineering* massal untuk penyelesaian tantangan *Smart City* & Keberlanjutan Sosio-Teknis.
+Sebagai summary: 1. **Tahap 1 (Selesai):** Formulasi *Smart Engineering* dasar (Model PSKVE dan Hukum ENERGON). 2. **Tahap 2 (Selesai):** TISE 1.0 (Integrasi Kecerdasan Triune & Siklus Otonom PUDAL). 3. **Tahap 3 (Selesai):** TISE 2.0 (Pemberdayaan Identitas Naratif, Partitur Generatif). 4. **Tahap 4 (Fokus Riset Ini - 2026):** TISE 3.0 (Meta-Artefak Rekursif, Orkestrasi *Multi-Agent* LLM, Kompresi Semantik SysML v2). 5. **Tahap 5 (Masa Depan):** Desain partisipatif *Crowdsourced Engineering* massal untuk penyelesaian tantangan *Smart City* & Keberlanjutan Sosio-Teknis.
 
-### 8. USULAN BIAYA RISET
+# 8. USULAN BIAYA RISET
 
-Total pagu anggaran adalah **Rp 150.000.000,-**.
+Total pagu anggaran adalah **Rp 150.000.000,-**. Sebagaimana diperlihatkan pada @fig-budget, Total alokasi anggaran adalah sebesar **Rp 150.000.000**, dengan rincian:
 
-#### 8.1 Belanja Pegawai (Maksimum 30%)
+- **30% Belanja Pegawai:** Untuk Peneliti Utama dan Asisten.
+
+- **28,3% Belanja Barang:** Langganan API LLM dan lisensi simulasi SysML v2.
+
+- **41,7% Belanja Jasa:** Investasi luaran untuk publikasi jurnal Q1 (APC), *proofreading*, serta komputasi awan/GPU.
+
+::: {#fig-budget}
+```{=typst}
+#image("pdfs/pg_0009.pdf")
+```
+Rasionalitas anggaran.
+:::
+
+## 8.1 Belanja Pegawai (Maksimum 30%)
 
 | No. | Pelaksana Kegiatan | Jml Orang | Honor per jam | Jml Jam/Bulan | Jml Bulan | Jumlah Biaya (Rp) |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|--|-----------|--|-----------|--|--|-----------|
 | 1\. | Peneliti Utama | 1 | 150.000 | 16 | 9 | 21.600.000 |
 | 2\. | Asisten Peneliti (Mhs S3/Postdoc) | 1 | 100.000 | 26 | 9 | 23.400.000 |
-| **Jumlah total biaya honor (Rp)** |  |  |  |  |  | **45.000.000** |
+|  | **Jumlah total biaya honor (Rp)** |  |  |  |  | **45.000.000** |
 
-#### 8.2 Belanja Barang
+## 8.2 Belanja Barang
 
 | No. | Peralatan/Bahan | Volume | Satuan | Biaya Satuan (Rp) | Jumlah Biaya (Rp) |
-|------------|------------|------------|------------|------------|------------|
+|--|---------------|--|------|------|-------
 | 1\. | Langganan API *Large Language Models* (Prototyping MAS) | 9 | Bulan | 2.500.000 | 22.500.000 |
 | 2\. | Lisensi Software Simulasi Sistem (SysML v2/MBSE) | 1 | Paket | 15.000.000 | 15.000.000 |
 | 3\. | Bahan habis pakai & ATK Riset | 1 | Paket | 5.000.000 | 5.000.000 |
-| **Jumlah total biaya barang (Rp)** |  |  |  |  | **42.500.000** |
+|  | **Jumlah total biaya barang (Rp)** |  |  |  | **42.500.000** |
 
-#### 8.3 Belanja Jasa
+## 8.3 Belanja Jasa
 
 *Sesuai ketentuan, komponen ini memuat biaya APC Jurnal Q1 (minimal Rp 30.000.000 ditambah beban pajak 31%).* **c. Sewa Alat, Jasa Layanan dan Lain-lain**
 
 | No. | Nama Alat/Jasa Layanan | Volume | Biaya Satuan (Rp) | Jumlah Biaya (Rp) |
-| --- | --- | --- | --- | --- | 
-| 1. | Jasa APC Publikasi Jurnal Q1 (IEEE Open Access) | 1 | 42.000.000 | 42.000.000 | 
-| 2. | Jasa Proofreading & English Editing Professional | 1 | 8.500.000 | 8.500.000 | 
-| 3. | Jasa Cloud Server / GPU Compute Computing | 6 | 2.000.000 | 12.000.000 | 
-| **Jumlah total biaya sewa alat, jasa layanan, dll. (Rp)** | | | | **62.500.000** |
+|--|-------------------|--|--------|---------|
+| 1\. | Jasa APC Publikasi Jurnal Q1 (IEEE Open Access) | 1 | 42.000.000 | 42.000.000 |
+| 2\. | Jasa Proofreading & English Editing Professional | 1 | 8.500.000 | 8.500.000 |
+| 3\. | Jasa Cloud Server / GPU Compute Computing | 6 | 2.000.000 | 12.000.000 |
+|  | **Jumlah total biaya sewa alat, jasa layanan, dll. (Rp)** |  |  | **62.500.000** |
 
 **TOTAL ANGGARAN KESELURUHAN = Rp. 150.000.000,-**
 
-### 9. CV TIM PENELITI
+# 9. CV TIM PENELITI
 
 *(Sesuai lampiran terpisah)*
 
@@ -259,43 +262,4 @@ Total pagu anggaran adalah **Rp 150.000.000,-**.
 
 *Catatan: Dokumen proposal ini telah disesuaikan tepat dengan kerangka acuan yang ditetapkan pada Surat Nomor: 1513/IT1.C12/KU/2026. Seluruh komponen mulai dari persentase honorarium (maks 30%), pengalokasian dana jasa APC yang memperhitungkan pajak 31%, serta target publikasi (submitted by Dec 2026) telah terpenuhi.*
 
-Berikut adalah transkrip formal dari paparan presentasi mengenai Meta-Arsitektur **Triune-Intelligence Smart Engineering (TISE 3.0)**:
-
----
-
-## **Transkrip Paparan: Meta-Arsitektur TISE 3.0**
-
-### **1. Pendahuluan dan Konteks Riset**
-
-
-
-### **2. Urgensi Perubahan Paradigma**
-
-
-
-
-### **3. Evolusi Menuju Sistem Sosio-Teknis**
-
-
-
-
-
-### **4. Meta-Arsitektur TISE 3.0 sebagai Solusi**
-
-
-
-
-### **5. Orkestrasi Multi-Agent System (MAS)**
-
-
-### **6. Validasi dan Metodologi**
-
-### **7. Rencana Pelaksanaan dan Anggaran**
-
-
-### **8. Target Output dan Dampak**
-
-
----
-
-Apakah Anda ingin saya merincikan lebih lanjut mengenai metodologi dekomposisi ASTF atau mekanisme kerja agen otonom dalam siklus PUDAL tersebut?
+B

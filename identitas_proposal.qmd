@@ -1,0 +1,42 @@
+
+# IDENTITAS PROPOSAL {.unnumbered}
+
+```{=typst}
+#table(
+  columns: 3,
+  stroke: none, // Remove default grid lines
+  table.hline(stroke: 1pt), // Add a top horizontal line (applied to header by default)
+  [Header 1], [Header 2], [Header 3],
+  table.hline(stroke: 1pt), // Add a line after the header
+  [Cell A1], [Cell A2], [Cell A3],
+  [Cell B1], [Cell B2], [Cell B3],
+  table.hline(stroke: 1pt), // Add a bottom line
+)
+```
+1.  **1. Judul:** *Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems*
+
+2.  **2. Tim Riset**
+
+    1.  **2.1 Ketua Tim:**
+
+        1.  a\. Nama Lengkap: Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.
+
+        2.  b\. Jabatan Fungsional/Golongan: Guru Besar
+
+        3.  c\. NIP: \[NIP\]
+
+        4.  d\. Fakultas/Sekolah/Pusat: Sekolah Teknik Elektro dan Informatika (STEI)
+
+        5.  e\. Kelompok Keahlian: \[Nama KK\] f. Alamat /Telp/Fax/E-mail: \[Kontak\]
+
+        6.  **2.2 Anggota Tim Riset:** *(Tabel Anggota Tim - diisi dengan mahasiswa S3/Postdoc sesuai mandat keterlibatan asisten peneliti)*
+
+        7.  **3. Biaya yang diusulkan:** Rp. 150.000.000,-
+
+        8.  **4. Target keluaran Riset:** 1 Jurnal Internasional Bereputasi Q1
+
+Proposal ini belum pernah didanai oleh atau diusulkan ke sumber lain. Apabila target luaran penelitian sebagaimana disebutkan di atas tidak tercapai, maka saya bersedia mengambil langkah-langkah korektif dan bertanggung jawab penuh atas segala konsekuensi penggunaan dana penelitian tersebut.
+
+Bandung, 10 Maret 2026 Ketua Tim Riset
+
+**(Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.)**
