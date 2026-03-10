@@ -58,5 +58,6 @@ SEKOLAH TEKNIK ELEKTRO DAN INFORMATIKA
 
 // Ensure this content is placed on its own page
 #pagebreak()
-
+#include "identitas_proposal.typ"
+#pegebreak()
 #include "proposal.typ"

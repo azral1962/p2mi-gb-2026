@@ -296,10 +296,6 @@
   doc,
 )
 
-#outline()
-#pagebreak()
-#image("STEI/pg_0007.pdf")
-#pagebreak()
 = 1. RINGKASAN PROPOSAL
 <ringkasan-proposal>
 Rekayasa sistem multidisiplin modern tengah beralih dari optimasi artefak fisik menuju perancangan sistem sosio-teknis (#emph[Socio-Technical Systems];) yang kompleks. Paradigma tradisional gagal mengakomodasi elemen kesejahteraan psikologis manusia dan kompresi nilai secara bersamaan. Riset ini mengusulkan evolusi paradigma #emph[Triune-Intelligence Smart Engineering] (TISE) menuju #strong[TISE 3.0];, sebuah Meta-Artefak autopoietik yang dirancang untuk menjawab #emph[Research Question];: #emph["Bagaimana menyatukan termodinamika penciptaan nilai fisik (Sistem ENERGON/PSKVE), orkestrasi agen otonom (Siklus PUDAL), dan pemberdayaan Identitas Naratif pemangku kepentingan ke dalam satu meta-arsitektur rekursif berbasis prompt?"];.
