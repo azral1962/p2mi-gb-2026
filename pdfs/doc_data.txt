@@ -1,0 +1,53 @@
+PdfID0: 6a5b614e2a6e0244165274117e20871c
+PdfID1: 6a5b614e2a6e0244165274117e20871c
+NumberOfPages: 10
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
+PageMediaBegin
+PageMediaNumber: 3
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
+PageMediaBegin
+PageMediaNumber: 4
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
+PageMediaBegin
+PageMediaNumber: 5
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
+PageMediaBegin
+PageMediaNumber: 6
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
+PageMediaBegin
+PageMediaNumber: 7
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
+PageMediaBegin
+PageMediaNumber: 8
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
+PageMediaBegin
+PageMediaNumber: 9
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
+PageMediaBegin
+PageMediaNumber: 10
+PageMediaRotation: 0
+PageMediaRect: 0 0 1376 768
+PageMediaDimensions: 1376 768
