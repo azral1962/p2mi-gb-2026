@@ -1,0 +1,25 @@
+InfoBegin
+InfoKey: CreationDate
+InfoValue: D:20260311173732+07'00'
+InfoBegin
+InfoKey: Title
+InfoValue: FrontBackMatters2026.docx
+InfoBegin
+InfoKey: Creator
+InfoValue: LibreOffice 25.2.2.2
+InfoBegin
+InfoKey: Producer
+InfoValue: LibreOffice 25.2.2.2
+PdfID0: 938d4fbe1963de2e86e57d46d5b6a3b4
+PdfID1: 938d4fbe1963de2e86e57d46d5b6a3b4
+NumberOfPages: 2
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 595 842
+PageMediaDimensions: 595 842
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 0
+PageMediaRect: 0 0 595 842
+PageMediaDimensions: 595 842

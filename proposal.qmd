@@ -1,8 +1,16 @@
 ---
+lang: id
 format: 
     typst :
         keep-typ: true
+        toc: true
 ---
+
+{{<pagebreak>}}
+
+# LEMBAR PENGESAHAN{.unnumbered}
+
+{{<pagebreak>}}
 
 # 1. RINGKASAN PROPOSAL
 
@@ -200,6 +208,8 @@ Peta jalan riset TISE.
 
 Sebagai summary: 1. **Tahap 1 (Selesai):** Formulasi *Smart Engineering* dasar (Model PSKVE dan Hukum ENERGON). 2. **Tahap 2 (Selesai):** TISE 1.0 (Integrasi Kecerdasan Triune & Siklus Otonom PUDAL). 3. **Tahap 3 (Selesai):** TISE 2.0 (Pemberdayaan Identitas Naratif, Partitur Generatif). 4. **Tahap 4 (Fokus Riset Ini - 2026):** TISE 3.0 (Meta-Artefak Rekursif, Orkestrasi *Multi-Agent* LLM, Kompresi Semantik SysML v2). 5. **Tahap 5 (Masa Depan):** Desain partisipatif *Crowdsourced Engineering* massal untuk penyelesaian tantangan *Smart City* & Keberlanjutan Sosio-Teknis.
 
+{{<pagebreak>}}
+
 # 8. USULAN BIAYA RISET
 
 Total pagu anggaran adalah **Rp 150.000.000,-**. Sebagaimana diperlihatkan pada @fig-budget, Total alokasi anggaran adalah sebesar **Rp 150.000.000**, dengan rincian:
@@ -247,12 +257,7 @@ Rasionalitas anggaran.
 
 **TOTAL ANGGARAN KESELURUHAN = Rp. 150.000.000,-**
 
+{{<pagebreak>}}
+
 # 9. CV TIM PENELITI
 
-*(Sesuai lampiran terpisah)*
-
-------------------------------------------------------------------------
-
-*Catatan: Dokumen proposal ini telah disesuaikan tepat dengan kerangka acuan yang ditetapkan pada Surat Nomor: 1513/IT1.C12/KU/2026. Seluruh komponen mulai dari persentase honorarium (maks 30%), pengalokasian dana jasa APC yang memperhitungkan pajak 31%, serta target publikasi (submitted by Dec 2026) telah terpenuhi.*
-
-B

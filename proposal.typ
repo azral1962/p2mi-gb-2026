@@ -361,11 +361,17 @@
 )
 
 #show: doc => article(
-  toc_title: [Table of contents],
+  lang: "id",
+  toc: true,
+  toc_title: [Daftar Isi],
   toc_depth: 3,
   doc,
 )
 
+#pagebreak()
+#heading(level: 1, numbering: none)[LEMBAR PENGESAHAN]
+<lembar-pengesahan>
+#pagebreak()
 = 1. RINGKASAN PROPOSAL
 <ringkasan-proposal>
 Rekayasa sistem multidisiplin modern tengah beralih dari optimasi artefak fisik menuju perancangan sistem sosio-teknis (#emph[Socio-Technical Systems]) yang kompleks. Paradigma tradisional gagal mengakomodasi elemen kesejahteraan psikologis manusia dan kompresi nilai secara bersamaan. Riset ini mengusulkan evolusi paradigma #emph[Triune-Intelligence Smart Engineering] (TISE) menuju #strong[TISE 3.0], sebuah Meta-Artefak autopoietik yang dirancang untuk menjawab #emph[Research Question]: #emph["Bagaimana menyatukan termodinamika penciptaan nilai fisik (Sistem ENERGON/PSKVE), orkestrasi agen otonom (Siklus PUDAL), dan pemberdayaan Identitas Naratif pemangku kepentingan ke dalam satu meta-arsitektur rekursif berbasis prompt?"].
@@ -378,7 +384,7 @@ Proposal ini mempresentasikan meta-arsitektur dari #strong[Triune-Intelligence S
 
 == 2.1 Latar belakang masalah
 <latar-belakang-masalah>
-Sebagaimana diperlihatkan pada #ref(<fig-masalah>, supplement: [Figure]), rekayasa tradisional saat ini telah mencapai batas asimtotiknya dalam hal efektivitas sistem. Terdapat krisis fundamental di mana:
+Sebagaimana diperlihatkan pada #ref(<fig-masalah>, supplement: [Gambar]), rekayasa tradisional saat ini telah mencapai batas asimtotiknya dalam hal efektivitas sistem. Terdapat krisis fundamental di mana:
 
 - Paradigma lama memisahkan komputasi teknis dari kondisi psikologis manusia.
 
@@ -394,12 +400,12 @@ position: bottom,
 Rekayasa tradisional telah mencapai batas asimptotiknya.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-masalah>
 
 
-Selanjutnya sebagaimana diperlihatkan pada #ref(<fig-evolusi>, supplement: [Figure]), evolusi paradigma rekayasa terbagi menjadi tiga fase utama:
+Selanjutnya sebagaimana diperlihatkan pada #ref(<fig-evolusi>, supplement: [Gambar]), evolusi paradigma rekayasa terbagi menjadi tiga fase utama:
 
 - #strong[SE Dasar:] Berfokus pada optimasi fisik menggunakan mekanisme model PSKVE dan mesin ENERGON untuk mengubah potensi menjadi kerja kinetik.
 
@@ -415,14 +421,14 @@ position: bottom,
 Evolusi paradigma rekayasa: menuju sistem sosio-teknis.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-evolusi>
 
 
 Evolusi TISE dibangun untuk menutup kesenjangan ini secara bertahap. Model dasar #emph[Smart Engineering] (SE) memodelkan realitas dalam ruang 5 dimensi PSKVE (Produk, Servis, #emph[Knowledge], #emph[Value], #emph[Environment]) yang digerakkan oleh "Mesin ENERGON" (mengubah potensi menjadi kerja kinetik). TISE 1.0 mengintegrasikan siklus PUDAL (#emph[Perceive, Understand, Decision, Act, Learning]) untuk mengubah artefak statis menjadi agen otonom. Selanjutnya, TISE 2.0 melakukan pergeseran radikal dari "orkestrasi tugas" menjadi "ko-kreasi naratif," di mana Naskah (#emph[Script]) sistem tidak lagi sekadar #emph[prompt] instruksi, melainkan Epik Personal yang memberdayakan #emph[Identitas Naratif] (Agensi dan Penebusan) dari #emph[stakeholder].
 
-Namun, membangun ekosistem TISE 2.0 secara manual sangat mahal dan kompleks. Oleh karena itu, muncul #strong[The Great Question]: #emph["Bagaimana kita merekayasa sistem yang mampu merekayasa sistem tersebut secara mandiri (autopoietik) sekaligus memadukan ENERGON, PUDAL, dan Pemberdayaan Naratif?"]. (Lihat #ref(<fig-questions>, supplement: [Figure]).) Kebutuhan ini mendasari urgensi TISE 3.0 sebagai "Meta-Artefak" berbasis #emph[prompt] yang beroperasi sebagai Konstruktor Universal untuk melakukan "Kompresi Nilai Termodinamika" ($V = U \/ C$).
+Namun, membangun ekosistem TISE 2.0 secara manual sangat mahal dan kompleks. Oleh karena itu, muncul #strong[The Great Question]: #emph["Bagaimana kita merekayasa sistem yang mampu merekayasa sistem tersebut secara mandiri (autopoietik) sekaligus memadukan ENERGON, PUDAL, dan Pemberdayaan Naratif?"]. (Lihat #ref(<fig-questions>, supplement: [Gambar]).) Kebutuhan ini mendasari urgensi TISE 3.0 sebagai "Meta-Artefak" berbasis #emph[prompt] yang beroperasi sebagai Konstruktor Universal untuk melakukan "Kompresi Nilai Termodinamika" ($V = U \/ C$).
 
 #figure([
 #image("pdfs/pg_0004.pdf")
@@ -432,12 +438,12 @@ position: bottom,
 Pertanyaan besar dari TISE 3.0.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-questions>
 
 
-Pertanyaan besar dalam TISE 3.0 adalah bagaimana menyatukan termodinamika fisik, identitas naratif, dan orkestrasi otonom ke dalam satu meta-arsitektur rekursif yang mampu membangun dirinya sendiri.(Lihat #ref(<fig-meta_tise>, supplement: [Figure]))
+Pertanyaan besar dalam TISE 3.0 adalah bagaimana menyatukan termodinamika fisik, identitas naratif, dan orkestrasi otonom ke dalam satu meta-arsitektur rekursif yang mampu membangun dirinya sendiri.(Lihat #ref(<fig-meta_tise>, supplement: [Gambar]))
 
 #figure([
 #image("meta-tise.png")
@@ -447,12 +453,12 @@ position: bottom,
 Konsep TISE 3.0: sebuah meta sistem.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-meta_tise>
 
 
-Sebagaimana diperlihatkan pada #ref(<fig-prompt>, supplement: [Figure]), TISE 3.0 beroperasi sebagai #strong[Konstruktor Universal Berbasis Prompt] dengan proses sebagai berikut:
+Sebagaimana diperlihatkan pada #ref(<fig-prompt>, supplement: [Gambar]), TISE 3.0 beroperasi sebagai #strong[Konstruktor Universal Berbasis Prompt] dengan proses sebagai berikut:
 
 + #strong[High-Entropy Prompt:] Input berupa niat dan narasi bahasa alami manusia.
 
@@ -470,7 +476,7 @@ position: bottom,
 TISE 3.0: Konstruktor uniuversal berbasis prompt.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-prompt>
 
@@ -481,7 +487,7 @@ supplement: "Figure",
 + Membangun dan mensimulasikan purwarupa TISE 3.0 yang mengonversi #emph[prompt] entropi tinggi menjadi artefak TISE 2.0 (melalui spesifikasi SysML v2).
 + Mempublikasikan penemuan ini sebagai #emph[The Great Answer] di Jurnal Internasional Bereputasi Q1 (Target: IEEE Transactions).
 
-Sebagaimana digambarkan pada #ref(<fig-MAS>, supplement: [Figure]), Implementasi ini menggunakan sistem multi-agen berbasis #emph[Large Language Model] (LLM) yang terdiri dari:
+Sebagaimana digambarkan pada #ref(<fig-MAS>, supplement: [Gambar]), Implementasi ini menggunakan sistem multi-agen berbasis #emph[Large Language Model] (LLM) yang terdiri dari:
 
 - #strong[Meta-Architect Agent:] Menggunakan #emph[Chain-of-Thought] untuk memecah #emph[prompt] menjadi rancangan arsitektur berstandar SysML v2.
 
@@ -497,14 +503,14 @@ position: bottom,
 Orketrasi Sistem Multi-Agen (MAS) berbasis LLM.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-MAS>
 
 
 = 3. METODOLOGI
 <metodologi>
-Penelitian ini menggunakan #strong[W-Model TISE] sebagai kerangka kerja validasi berkelanjutan (lihat #ref(<fig-W_Model>, supplement: [Figure])):
+Penelitian ini menggunakan #strong[W-Model TISE] sebagai kerangka kerja validasi berkelanjutan (lihat #ref(<fig-W_Model>, supplement: [Gambar])):
 
 - #strong[Dekomposisi ASTF:] Kompresi semantik niat pengguna ke dalam logika ontologi empat level: #emph[Application, System, Technology,] dan #emph[Fundamental].
 
@@ -528,7 +534,7 @@ position: bottom,
 Kerangka kerja validasi berkelanjutan.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-W_Model>
 
@@ -543,7 +549,7 @@ supplement: "Figure",
 
 = 5. INDIKATOR KEBERHASILAN (TARGET CAPAIAN)
 <indikator-keberhasilan-target-capaian>
-Target utama riset ini adalah publikasi pada jurnal #strong[IEEE Transactions on Systems, Man, and Cybernetics: Systems] yang direncanakan untuk submisi pada 30 November 2026.(#ref(<fig-ROI>, supplement: [Figure]).) Secara institusional, riset ini bertujuan membuktikan konsep efisiensi kompresi nilai termodinamika dan mendukung pencapaian target reputasi akademik ITB menuju #strong[QS WUR 150].
+Target utama riset ini adalah publikasi pada jurnal #strong[IEEE Transactions on Systems, Man, and Cybernetics: Systems] yang direncanakan untuk submisi pada 30 November 2026.(#ref(<fig-ROI>, supplement: [Gambar]).) Secara institusional, riset ini bertujuan membuktikan konsep efisiensi kompresi nilai termodinamika dan mendukung pencapaian target reputasi akademik ITB menuju #strong[QS WUR 150].
 
 Sesuai mandat PPMI, target minimal adalah 1 publikasi Q1.
 
@@ -564,14 +570,14 @@ position: bottom,
 Tujuan dan Impak riset ini
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-ROI>
 
 
 = 6. JADWAL PELAKSANAAN
 <jadwal-pelaksanaan>
-Sebagaimana di perloihatkan pada #ref(<fig-Jadwal>, supplement: [Figure]), Proyek ini direncanakan berjalan dari #strong[April hingga Desember 2026]. Tahapan mencakup spesifikasi ASTF, pengembangan MAS, desain #emph[Digital Twin], hingga finalisasi manuskrip untuk jurnal Q1 pada bulan ke-9.
+Sebagaimana di perloihatkan pada #ref(<fig-Jadwal>, supplement: [Gambar]), Proyek ini direncanakan berjalan dari #strong[April hingga Desember 2026]. Tahapan mencakup spesifikasi ASTF, pengembangan MAS, desain #emph[Digital Twin], hingga finalisasi manuskrip untuk jurnal Q1 pada bulan ke-9.
 
 Penelitian dilaksanakan selama 9 bulan (April -- Desember 2026).
 
@@ -589,7 +595,7 @@ position: bottom,
 Jadwal eksekusi terukur.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-Jadwal>
 
@@ -606,7 +612,7 @@ position: bottom,
 Peta jalan riset TISE.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-peta>
 
@@ -623,9 +629,10 @@ supplement: "Figure",
 
 Sebagai summary: 1. #strong[Tahap 1 (Selesai):] Formulasi #emph[Smart Engineering] dasar (Model PSKVE dan Hukum ENERGON). 2. #strong[Tahap 2 (Selesai):] TISE 1.0 (Integrasi Kecerdasan Triune & Siklus Otonom PUDAL). 3. #strong[Tahap 3 (Selesai):] TISE 2.0 (Pemberdayaan Identitas Naratif, Partitur Generatif). 4. #strong[Tahap 4 (Fokus Riset Ini - 2026):] TISE 3.0 (Meta-Artefak Rekursif, Orkestrasi #emph[Multi-Agent] LLM, Kompresi Semantik SysML v2). 5. #strong[Tahap 5 (Masa Depan):] Desain partisipatif #emph[Crowdsourced Engineering] massal untuk penyelesaian tantangan #emph[Smart City] & Keberlanjutan Sosio-Teknis.
 
+#pagebreak()
 = 8. USULAN BIAYA RISET
 <usulan-biaya-riset>
-Total pagu anggaran adalah #strong[Rp 150.000.000,-]. Sebagaimana diperlihatkan pada #ref(<fig-budget>, supplement: [Figure]), Total alokasi anggaran adalah sebesar #strong[Rp 150.000.000], dengan rincian:
+Total pagu anggaran adalah #strong[Rp 150.000.000,-]. Sebagaimana diperlihatkan pada #ref(<fig-budget>, supplement: [Gambar]), Total alokasi anggaran adalah sebesar #strong[Rp 150.000.000], dengan rincian:
 
 - #strong[30% Belanja Pegawai:] Untuk Peneliti Utama dan Asisten.
 
@@ -641,7 +648,7 @@ position: bottom,
 Rasionalitas anggaran.
 ]), 
 kind: "quarto-float-fig", 
-supplement: "Figure", 
+supplement: "Gambar", 
 )
 <fig-budget>
 
@@ -685,12 +692,9 @@ supplement: "Figure",
 )
 #strong[TOTAL ANGGARAN KESELURUHAN = Rp. 150.000.000,-]
 
+#pagebreak()
 = 9. CV TIM PENELITI
 <cv-tim-peneliti>
-#emph[\(Sesuai lampiran terpisah)]
 
-#horizontalrule
 
-#emph[Catatan: Dokumen proposal ini telah disesuaikan tepat dengan kerangka acuan yang ditetapkan pada Surat Nomor: 1513/IT1.C12/KU/2026. Seluruh komponen mulai dari persentase honorarium (maks 30%), pengalokasian dana jasa APC yang memperhitungkan pajak 31%, serta target publikasi (submitted by Dec 2026) telah terpenuhi.]
 
-B

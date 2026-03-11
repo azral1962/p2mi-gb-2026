@@ -7,7 +7,7 @@
 )
 #set text(
   // Set default font
-  font: "New Computer Modern",
+  font: "liberation sans",
   size: 14pt,
 )
 
@@ -16,42 +16,43 @@
 #align(top + center)[
   #text(size: 16pt, weight: "bold")[
     PROPOSAL
-    RISETs
+    RISET
   ]
   #v(1em) // Vertical spacing
   #text(size: 16pt, weight: "bold")[
     RISET PPMI STEI 2026 - RISET GURU BESAR
   ]
+  #v(1cm)
   #image("images/typst-logo.jpg", width: 1.5in)
 ]
 
 #align(horizon + center)[
   #block(
-  stroke: black,
-  inset: 8pt,
-  radius: 4pt,
-  "Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems"
+    stroke: black,
+    inset: 8pt,
+    radius: 4pt,
+    "Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems",
   )
 ]
 
 // Move to the bottom left for author and date
 #align(bottom + center)[
   #text(weight: "bold")[
-  Ketua Tim Peneliti:
+    Ketua Tim Peneliti:
 
-  Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D. 
+    Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.
 
-  KK: Teknologi Informasi
+    KK: Teknologi Informasi
 
   ]
-  #v(0.5em)
-    #text(weight: "bold")[
+  #v(1cm)
+  #text(weight: "bold")[
 
-SEKOLAH TEKNIK ELEKTRO DAN INFORMATIKA
+    SEKOLAH TEKNIK ELEKTRO DAN INFORMATIKA
 
- INSTITUT TEKNOLOGI BANDUNG
+    INSTITUT TEKNOLOGI BANDUNG
 
-  MARET 2026
+    MARET 2026
 
   ]
 ]

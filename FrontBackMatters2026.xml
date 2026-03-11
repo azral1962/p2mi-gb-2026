@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <object alt="" name="image2.png" object_type="graphic"/>
+ <paragraph index="9" node_type="writer">Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems</paragraph>
+ <paragraph index="12" node_type="writer">Mengetahui,</paragraph>
+ <paragraph index="13" node_type="writer">Ketua Kelompok Keahlian Teknologi Informasi.</paragraph>
+ <paragraph index="17" node_type="writer">Prof. Dr. Ir. Suhardi</paragraph>
+ <paragraph index="18" node_type="writer">NIP. 19631211 19900110 02</paragraph>
+ <paragraph index="21" node_type="writer">Bandung, 12 Maret 2026</paragraph>
+ <paragraph index="22" node_type="writer">Ketua Tim Riset</paragraph>
+ <paragraph index="27" node_type="writer">Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D</paragraph>
+ <paragraph index="28" node_type="writer">NIP. 19620817 19900310 02</paragraph>
+ <object alt="" name="image3.png" object_type="graphic"/>
+ <object alt="" name="Object1" object_type="ole"/>
+ <object alt="" name="Object2" object_type="ole"/>
+ <object alt="" name="Object3" object_type="ole"/>
+ <object alt="" name="Object4" object_type="ole"/>
+ <object alt="" name="Object5" object_type="ole"/>
+ <object alt="" name="Object6" object_type="ole"/>
+ <object alt="" name="Object7" object_type="ole"/>
+ <object alt="" name="Object8" object_type="ole"/>
+ <object alt="" name="Object9" object_type="ole"/>
+ <object alt="" name="Object10" object_type="ole"/>
+ <object alt="" name="Object11" object_type="ole"/>
+ <object alt="" name="Object12" object_type="ole"/>
+ <object alt="" name="Object13" object_type="ole"/>
+ <object alt="" name="Object14" object_type="ole"/>
+ <object alt="" name="Object15" object_type="ole"/>
+ <object alt="" name="Object16" object_type="ole"/>
+ <object alt="" name="Object17" object_type="ole"/>
+ <object alt="" name="Object18" object_type="ole"/>
+ <object alt="" name="Object19" object_type="ole"/>
+ <object alt="" name="Object20" object_type="ole"/>
+ <object alt="" name="Object21" object_type="ole"/>
+ <object alt="" name="Object22" object_type="ole"/>
+ <object alt="" name="Object23" object_type="ole"/>
+ <object alt="" name="image4.png" object_type="graphic"/>
+ <object alt="" name="image1.png" object_type="graphic"/>
+ <object alt="" name="Object24" object_type="ole"/>
+ <object alt="" name="Object25" object_type="ole"/>
+ <object alt="" name="Object26" object_type="ole"/>
+ <object alt="" name="Object27" object_type="ole"/>
+ <object alt="" name="Object28" object_type="ole"/>
+ <object alt="" name="Object29" object_type="ole"/>
+ <object alt="" name="Object30" object_type="ole"/>
+ <object alt="" name="Object31" object_type="ole"/>
+ <object alt="" name="Object32" object_type="ole"/>
+ <object index="136" name="Table5" object_type="table"/>
+ <paragraph index="138" node_type="writer" parent_index="136">No.</paragraph>
+ <paragraph index="141" node_type="writer" parent_index="136">Nama Jurnal Q1</paragraph>
+ <paragraph index="144" node_type="writer" parent_index="136">Judul (tentatif)</paragraph>
+ <paragraph index="147" node_type="writer" parent_index="136">Rencana submit</paragraph>
+ <paragraph index="150" node_type="writer" parent_index="136">1.</paragraph>
+ <paragraph index="153" node_type="writer" parent_index="136">IEEE System Journal/ IEEE Intelligent Systems</paragraph>
+ <paragraph index="156" node_type="writer" parent_index="136">A value creation model of PSKVE-System</paragraph>
+ <paragraph index="159" node_type="writer" parent_index="136">1 September 2024</paragraph>
+ <paragraph index="176" node_type="writer">		</paragraph>
+ <paragraph index="182" node_type="writer">		</paragraph>
+ <paragraph index="188" node_type="writer">	</paragraph>
+ <paragraph index="190" node_type="writer">PROPOSAL</paragraph>
+ <paragraph index="191" node_type="writer">PROGRAM RISET P2MI STEI - GURU BESAR</paragraph>
+ <paragraph index="206" node_type="writer">Ketua Tim Peneliti:</paragraph>
+ <paragraph index="208" node_type="writer">Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.</paragraph>
+ <paragraph index="211" node_type="writer">	Kelompok Keahlian	: Teknologi Informasi 			</paragraph>
+ <paragraph index="215" node_type="writer">SEKOLAH TEKNIK ELEKTRO DAN INFORMATIKA</paragraph>
+ <paragraph index="216" node_type="writer">INSTITUT TEKNOLOGI BANDUNG</paragraph>
+ <paragraph index="217" node_type="writer">MARET 2026</paragraph>
+ <paragraph index="218" node_type="writer"> </paragraph>
+ <paragraph index="220" node_type="writer">DAFTAR ISI</paragraph>
+ <paragraph index="222" node_type="writer">									Halaman</paragraph>
+ <paragraph index="224" node_type="writer">Isi</paragraph>
+ <object index="225" name="Table of Contents1" object_type="section"/>
+ <paragraph index="226" node_type="writer" parent_index="225">IDENTITAS PROPOSAL	3</paragraph>
+ <paragraph index="227" node_type="writer" parent_index="225">1	RINGKASAN PROPOSAL	4</paragraph>
+ <paragraph index="228" node_type="writer" parent_index="225">2	PENDAHULUAN	4</paragraph>
+ <paragraph index="229" node_type="writer" parent_index="225">2.1	Latar Belakang	4</paragraph>
+ <paragraph index="230" node_type="writer" parent_index="225">2.2	Permasalahan	5</paragraph>
+ <paragraph index="231" node_type="writer" parent_index="225">3	METODOLOGI	6</paragraph>
+ <paragraph index="232" node_type="writer" parent_index="225">4	INDIKATOR KEBERHASILAN (TARGET CAPAIAN)	10</paragraph>
+ <paragraph index="233" node_type="writer" parent_index="225">5	JADWAL PELAKSANAAN	11</paragraph>
+ <paragraph index="234" node_type="writer" parent_index="225">6	PETA JALAN (ROAD MAP) RISET	11</paragraph>
+ <paragraph index="235" node_type="writer" parent_index="225">8	USULAN BIAYA RISET	11</paragraph>
+ <paragraph index="236" node_type="writer" parent_index="225">8.1	Belanja pegawai	11</paragraph>
+ <paragraph index="237" node_type="writer" parent_index="225">8.2	Belanja barang	12</paragraph>
+ <paragraph index="238" node_type="writer" parent_index="225">8.3	Belanja jasa	12</paragraph>
+ <paragraph index="239" node_type="writer" parent_index="225">9	CV TIM PENELITI	12</paragraph>
+ <paragraph index="243" node_type="writer">IDENTITAS PROPOSAL</paragraph>
+ <object index="244" name="Table1" object_type="table"/>
+ <paragraph index="246" node_type="writer" parent_index="244">1.</paragraph>
+ <paragraph index="249" node_type="writer" parent_index="244">Judul</paragraph>
+ <paragraph index="252" node_type="writer" parent_index="244">:</paragraph>
+ <paragraph index="255" node_type="writer" parent_index="244">Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems</paragraph>
+ <paragraph index="258" node_type="writer" parent_index="244">2.</paragraph>
+ <paragraph index="261" node_type="writer" parent_index="244">Tim Riset</paragraph>
+ <paragraph index="267" node_type="writer" parent_index="244">2.1</paragraph>
+ <paragraph index="270" node_type="writer" parent_index="244">Ketua Tim</paragraph>
+ <paragraph index="279" node_type="writer" parent_index="244">a.</paragraph>
+ <paragraph index="282" node_type="writer" parent_index="244">Nama Lengkap</paragraph>
+ <paragraph index="285" node_type="writer" parent_index="244">:</paragraph>
+ <paragraph index="288" node_type="writer" parent_index="244">Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.</paragraph>
+ <paragraph index="297" node_type="writer" parent_index="244">b.</paragraph>
+ <paragraph index="300" node_type="writer" parent_index="244">Jabatan Fungsional/Golongan</paragraph>
+ <paragraph index="303" node_type="writer" parent_index="244">:</paragraph>
+ <paragraph index="306" node_type="writer" parent_index="244">Guru Besar / IV-E</paragraph>
+ <paragraph index="315" node_type="writer" parent_index="244">c.</paragraph>
+ <paragraph index="318" node_type="writer" parent_index="244">NIP</paragraph>
+ <paragraph index="321" node_type="writer" parent_index="244">:</paragraph>
+ <paragraph index="324" node_type="writer" parent_index="244">131902360 / 196208171990031002</paragraph>
+ <paragraph index="333" node_type="writer" parent_index="244">d.</paragraph>
+ <paragraph index="336" node_type="writer" parent_index="244">Fakultas/Sekolah/Pusat</paragraph>
+ <paragraph index="339" node_type="writer" parent_index="244">:</paragraph>
+ <paragraph index="342" node_type="writer" parent_index="244">Sekolah Teknik Elektro dan Informatika</paragraph>
+ <paragraph index="351" node_type="writer" parent_index="244">e.</paragraph>
+ <paragraph index="354" node_type="writer" parent_index="244">Alamat /Telp/Fax/E-mail</paragraph>
+ <paragraph index="357" node_type="writer" parent_index="244">:</paragraph>
+ <paragraph index="360" node_type="writer" parent_index="244">Gedung Labtek VIII Lantai 3 / 022-2500985/ armein@itb.ac.id</paragraph>
+ <paragraph index="365" node_type="writer">Anggota Tim Riset:</paragraph>
+ <object index="366" name="Table2" object_type="table"/>
+ <paragraph index="368" node_type="writer" parent_index="366">No.</paragraph>
+ <paragraph index="371" node_type="writer" parent_index="366">Nama dan Gelar Akademik</paragraph>
+ <paragraph index="374" node_type="writer" parent_index="366">Bidang Keahlian</paragraph>
+ <paragraph index="377" node_type="writer" parent_index="366">Unit Kerja/</paragraph>
+ <paragraph index="378" node_type="writer" parent_index="366">Lembaga</paragraph>
+ <paragraph index="381" node_type="writer" parent_index="366">Alokasi Waktu</paragraph>
+ <paragraph index="396" node_type="writer" parent_index="366">Jam/mg</paragraph>
+ <paragraph index="399" node_type="writer" parent_index="366">bulan</paragraph>
+ <paragraph index="402" node_type="writer" parent_index="366">1.</paragraph>
+ <paragraph index="405" node_type="writer" parent_index="366">Dr. Baskara Nugraha, ST, MT</paragraph>
+ <paragraph index="408" node_type="writer" parent_index="366">Multimdeia System</paragraph>
+ <paragraph index="411" node_type="writer" parent_index="366">KK-TI STEI</paragraph>
+ <paragraph index="414" node_type="writer" parent_index="366">10</paragraph>
+ <paragraph index="417" node_type="writer" parent_index="366">10</paragraph>
+ <paragraph index="420" node_type="writer" parent_index="366">2.</paragraph>
+ <paragraph index="423" node_type="writer" parent_index="366">Dr. Kusprasapta, ST, MT</paragraph>
+ <paragraph index="426" node_type="writer" parent_index="366">Sistem Robotik</paragraph>
+ <paragraph index="429" node_type="writer" parent_index="366">KK-TI STEI</paragraph>
+ <paragraph index="432" node_type="writer" parent_index="366">10</paragraph>
+ <paragraph index="435" node_type="writer" parent_index="366">10</paragraph>
+ <paragraph index="438" node_type="writer" parent_index="366">3.</paragraph>
+ <paragraph index="441" node_type="writer" parent_index="366">Teddy Marcus Zakaria</paragraph>
+ <paragraph index="444" node_type="writer" parent_index="366">Mahasiswa S3-STEI ITB 332240005</paragraph>
+ <paragraph index="447" node_type="writer" parent_index="366">Asisten</paragraph>
+ <paragraph index="450" node_type="writer" parent_index="366">20</paragraph>
+ <paragraph index="453" node_type="writer" parent_index="366">10</paragraph>
+ <paragraph index="457" node_type="writer">3. Anggaran dan Luaran</paragraph>
+ <paragraph index="458" node_type="writer">Biaya yang diusulkan			:  Rp. 150.000.000,-</paragraph>
+ <paragraph index="459" node_type="writer">Target output (keluaran) Riset		: </paragraph>
+ <object index="461" name="Table3" object_type="table"/>
+ <paragraph index="463" node_type="writer" parent_index="461">No.</paragraph>
+ <paragraph index="466" node_type="writer" parent_index="461">Judul</paragraph>
+ <paragraph index="469" node_type="writer" parent_index="461">Target Jurnal Q1</paragraph>
+ <paragraph index="472" node_type="writer" parent_index="461">Jumlah</paragraph>
+ <paragraph index="475" node_type="writer" parent_index="461">1.</paragraph>
+ <paragraph index="478" node_type="writer" parent_index="461">Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems</paragraph>
+ <paragraph index="481" node_type="writer" parent_index="461">IIEEE Transactions on Systems, Man, and Cybernetics: Systems, or EEE System Journal / IEEE System Intelligence/</paragraph>
+ <paragraph index="484" node_type="writer" parent_index="461">1</paragraph>
+ <paragraph index="489" node_type="writer">Proposal ini belum pernah didanai oleh atau diusulkan ke sumber lain.</paragraph>
+ <paragraph index="493" node_type="writer">RINGKASAN PROPOSAL</paragraph>
+ <paragraph index="494" node_type="writer">Proposal ini mengusulkan model komputasi sistem lingkungan nilai pengetahuan layanan produk (product-service-knowledge-value-environment system, PSKVE-S), terutama model kinerja dan perilakunya. Kita telah mengembangkan konsep PSKVE-S sebagai abstraksi solusi dan proses rekayasa. Dalam proposal ini, kita mengembangkan model PSKVE-S praktis dengan penekanan pada penciptaan nilai untuk dirinya sendiri serta untuk empat sumber lainnya. Ini membutuhkan pertukaran di antara lima mata uang. Kita kemudian memodelkan struktur internal PSKVE-S secara rekursif, berisi empat PSKVE-S internal, dan enam mata uang internal.  Model awal untuk sumber eksternal didasarkan pada kurva penawaran-permintaan. Pada akhirnya, proposal ini membahas penerapan model komputasi untuk prototipe virtual PSKVE-S.</paragraph>
+ <paragraph index="496" node_type="writer">PENDAHULUAN</paragraph>
+ <paragraph index="497" node_type="writer">Latar Belakang</paragraph>
+ <paragraph index="498" node_type="writer">Agar rekayasa modern dapat menciptakan nilai [1], harus ada konteks yang masuk akal di mana output rekayasa dapat berfungsi sebagai penciptaan nilai [2]. Selain itu, kita telah memperkenalkan sistem nilai layanan produk (PSKVE-S) sebagai abstraksi output rekayasa [3]. Di sini konsep rekayasa sistem diterapkan pada produk, layanan, dan rekayasa perusahaan. Untuk lebih menggambarkan PSKVE-S, proposal ini mengusulkan pemodelan komputasi PSKVE-S, dengan penekanan pada pemodelan inovasi nilainya.</paragraph>
+ <paragraph index="499" node_type="writer"> Membuat abstraksi PSKVE-S memiliki banyak manfaat [4]. Ini memungkinkan pandangan seragam dari berbagai masalah rekayasa. Selain itu, ini juga memungkinkan kreasi model komputasi untuk rekayasa, menghasilkan rekayasa cerdas. Kita terutama tertarik pada prototipe virtual PSKVE-S [5]. Memiliki model komputasi PSKVE-S memungkinkan kita untuk menciptakan lingkungan virtual di mana PSKVE-S virtual dapat dibuat dan dinilai.</paragraph>
+ <paragraph index="500" node_type="writer">Manfaat memiliki prototipe virtual melampaui pemodelan dan implementasi. Model inovasi nilai berguna dalam menjaga operasi PSKVE-S. Model komputasi berjalan berdampingan dengan realisasi aktualnya, membantu operator menjalankan skenario bagaimana-jika dalam realitas operasional baru. Ini menghasilkan operasi PSKVE-S yang cerdas. </paragraph>
+ <paragraph index="501" node_type="writer">Ada tiga model prototyping virtual: (i) model kinerja, (ii) perilaku abstrak, dan (iii) perilaku rinci [5]. Dalam proposal ini, kita fokus pada menghasilkan model kinerja dan perilaku abstrak PSKVE-S. Ini termasuk definisi input-output yang terkait dengan kinerja yang disebut mata uang atau token, dan bagaimana mereka dipertukarkan.</paragraph>
+ <paragraph index="502" node_type="writer">Proposal ini disusun sebagai berikut. Pertama, pengantar ini mengusulkan kebutuhan latar belakang untuk pemodelan PSKVE-S. Kedua, menggambarkan konsep dasar PSKVE-S sebagai penukar mata uang dengan empat sumber eksternal. Secara khusus, kita mengusulkan konsep penting dari beberapa mata uang. Ketiga, proposal ini memperkenalkan struktur internal PSKVE-S secara rekursif. Kita memperkenalkan lima PSKVE-S internal dan tujuh mata uang internal. Keempat, mengembangkan model prinsip untuk sumber eksternal menggunakan konsep dinamika pasar. Kelima, membahas prototipe virtual model komputasi kita, terutama versi. Akhirnya memberikan kata penutup dan karya masa depan.</paragraph>
+ <paragraph index="503" node_type="writer">Permasalahan</paragraph>
+ <paragraph index="504" node_type="writer">Masalah utama adalah bagaimana PSKVE-S menciptakan nilai. Salah satu model PSKVE-S praktis ditunjukkan pada Gambar. (1). Ini adalah sistem yang berinteraksi dengan empat sumber nilai di sekitarnya yaitu (1) Pemasok, (2) Pelanggan, (3) Pembiayaan, dan (4) Aset, yang mewakili nilai eksternal utama.  PSKVE-S menciptakan nilai dengan bertukar nilai dengan sumber-sumber tersebut. Keberlanjutan PSKVE-S dalam penciptaan nilai ini juga tergantung pada kemampuannya untuk meningkatkan nilai bagi sumber-sumber eksternal tersebut.</paragraph>
+ <paragraph index="507" node_type="writer">Gambar 1 PSKVE-S meningkatkan nilai dirinya sendiri dan sumbernya.</paragraph>
+ <paragraph index="509" node_type="writer">PSKVE-S harus memiliki mata uang sebagai unit pengukuran nilai yang dibuatnya. Biasanya mata uang itu juga digunakan sebagai mata uang umum yang  dapat diterima untuk semua sumber. Harus jelas bahwa keberlanjutan semacam itu juga membutuhkan perspektif nilai yang berbeda untuk semua sumber nilai, jika tidak kita akan memiliki sistem abadi. Dengan kata lain, kita harus menetapkan  empat mata uang tambahan yang berbeda  sebagai unit nilai dari empat sumber yang berbeda, masing-masing. Oleh karena itu PSKVE-S harus siap untuk menukar lima mata uang yang berbeda. </paragraph>
+ <paragraph index="510" node_type="writer">Seperti yang diilustrasikan pada Gambar 1 kita mendefinisikan empat mata uang tambahan tersebut: Material, Keuangan / Investasi, Solusi, dan Aset, selain mata uang umum. Kita memperkenalkan notasi [$M], [$F], [$S], [$A], dan [$C], masing-masing, untuk menunjukkan satuan ukuran nilainya. Panah pertukaran menunjukkan arah mata uang tertentu. Ini menyiratkan bahwa nilai tertentu dipertukarkan dengan nilai-nilai dalam mata uang umum. </paragraph>
+ <paragraph index="511" node_type="writer">Oleh karena itu Pemasok kaya dengan nilai-nilai material [$M] untuk ditukar dengan PSKVE-S '[$C] yang tidak dimiliki Pemasok. Penyandang pembiayaan tidak memiliki nilai-nilai Keuangan atau Investasi [$F] tetapi kaya akan nilai-nilai umum [$C]. Pelanggan kaya dengan [$C] dan bersedia menukar [$C] dengan nilai solusi [$S]. Akhirnya, Penyedia Aset bersedia menukar nilai asetnya [$A] dengan nilai PSKVE-S [$C]. Oleh karena itu setiap sumber mempertahankan portofolio nilai dalam dua mata uang: mata uang umum dan sumber mata uang tertentu.</paragraph>
+ <paragraph index="512" node_type="writer">Seperti dalam penukar mata uang manapun, setiap sumber mempertahankan nilai tukar yang dinamis. Tingkat perubahan waktu sesuai dengan hukum keseimbangan penawaran-permintaan. Misalnya, untuk Pelanggan, tarif [$C/$S] (yang merupakan jumlah [$C] yang akan ditukar dengan [$S] tunggal) berkurang jika pasokan PSKVE-S sebesar [$S] melebihi permintaan Pelanggan, atau permintaan PSKVE-S untuk [$C] melebihi pasokan Pelanggan. Dalam praktiknya, akan ada tabel yang menyimpan berbagai tarif secara dinamis.  Kita berasumsi bahwa setiap sumber memahami bagaimana perubahan dalam portofolionya meningkatkan nilainya menggunakan tabel tarif.</paragraph>
+ <paragraph index="513" node_type="writer">PSKVE-S yang sukses kemudian harus memenuhi dua kondisi. Pertama, ia harus bertukar nilai dengan semua sumber sehingga nilai portofolio akhir masing-masing meningkat. Kedua, nilainya (dalam [$C]) juga harus meningkat.</paragraph>
+ <paragraph index="514" node_type="writer">Kita sekarang merancang perilaku PSKVE-S yang memenuhi persyaratan fungsional ini. Tabel 1 menunjukkan proses bagaimana PSKVE-S menciptakan nilai biasanya. Dari Gambar (1) jelas bahwa PSKVE-S harus kaya [$F] dan [$S], dan membutuhkan [$C]. Biasanya membuat [$F] itu sepele. Ini adalah penciptaan [$S] yang harus menjadi kompetensi inti dari PSKVE-S. Ini dicapai dengan membeli [$A] dari Penyedia Aset dan [$M] dari Pemasok, untuk memproduksi dan menjual [$S] kepada Pelanggan. Membeli dari Penyedia Aset dan Pemasok membutuhkan ketersediaan yang cukup [$C]. Itu harus datang dari Pelanggan pada akhirnya. Namun, pada awalnya, biasanya berasal dari penjualan [$F], yang harus dibeli kembali sebelum akhir masa pakai PSKVE-S. Dari serangkaian pertukaran yang ditunjukkan pada Tabel 1,  nilai N [$C] yang dibuat oleh PSKVE-S untuk dirinya sendiri adalah</paragraph>
+ <paragraph index="515" node_type="writer">
+	(1)</paragraph>
+ <paragraph index="517" node_type="writer">Penting untuk mengasumsikan bahwa jumlah yang dipertukarkan dan nilai tukar pada Tabel 1 dapat diterima oleh semua sumber, yang berarti mereka meningkatkan nilai sumber dalam mata uang masing-masing.</paragraph>
+ <paragraph index="519" node_type="writer">Tabel 1. Proses perilaku khas PSKVE-S dalam penciptaan nilai. </paragraph>
+ <object index="521" name="Table4" object_type="table"/>
+ <paragraph index="523" node_type="writer" parent_index="521">Pertukaran</paragraph>
+ <paragraph index="526" node_type="writer" parent_index="521">Harga</paragraph>
+ <paragraph index="529" node_type="writer" parent_index="521">Tingkatkan $C</paragraph>
+ <paragraph index="532" node_type="writer" parent_index="521">Mengurangi $C</paragraph>
+ <paragraph index="535" node_type="writer" parent_index="521">Aliran Nilai $C</paragraph>
+ <paragraph index="538" node_type="writer" parent_index="521">Jual $I</paragraph>
+ <paragraph index="541" node_type="writer" parent_index="521"> [$C/$F]</paragraph>
+ <paragraph index="553" node_type="writer" parent_index="521">Beli $A</paragraph>
+ <paragraph index="556" node_type="writer" parent_index="521"> [$C/$A]</paragraph>
+ <paragraph index="568" node_type="writer" parent_index="521">Beli $M</paragraph>
+ <paragraph index="571" node_type="writer" parent_index="521"> [$C/$M]</paragraph>
+ <paragraph index="583" node_type="writer" parent_index="521">Jual $S</paragraph>
+ <paragraph index="586" node_type="writer" parent_index="521"> [$C/$S]</paragraph>
+ <paragraph index="598" node_type="writer" parent_index="521">Beli $I</paragraph>
+ <paragraph index="601" node_type="writer" parent_index="521"> [$C/$I]</paragraph>
+ <paragraph index="614" node_type="writer">Catatan khusus harus disediakan untuk pertukaran Financers. Sumber ini kaya akan [$C] dan biasanya tertarik untuk meningkatkan nilai dalam mata uang semacam itu. Oleh karena itu hanya mempertahankan [$F] dalam portofolionya sementara. Ini dicapai dengan membeli [$F] pada tingkat awal dan menjualnya kembali pada akhir dengan tingkat baru . Selama lebih besar dari persyaratan minimal, sumber ini terpenuhi.</paragraph>
+ <paragraph index="615" node_type="writer">Setelah mengusulkan fungsi PSKVE-S sebagai pencipta nilai, dan merancang proses dasar (perilaku) PSKVE-S, kita kemudian merancang model komputasi PSKVE-S praktis. Ini berarti merancang struktur internalnya.   </paragraph>
+ <paragraph index="617" node_type="writer">METODOLOGI</paragraph>
+ <paragraph index="618" node_type="writer">Metode penelitian utama dalam riset ini adalah Design Research Methodology (DRM), serta simulasi Modelica untuk validasi. Sebagaimana Gambar 2, DRM memiliki empat tahapan utama (i) Klarifikasi Riset, (ii) Studi Deskriptif 1, (iii) Studi Preskriptif, dan (iv) Studi Deskriptif 2.</paragraph>
+ <paragraph index="620" node_type="writer">Gambar 2. Framework DRM </paragraph>
+ <paragraph index="622" node_type="writer">Khusus untuk system kompetitif hendak dikembangkan empat tahap metodologi, sebagai berikut</paragraph>
+ <paragraph index="623" node_type="writer">Tahap I. Peluang Penciptaan Nilai. Visi bagaimana kekayaan nilai inti bisa menjadi proposisi nilai pelanggan  PNP yang berkelanjutan. PNP adalah benefit dikurangi harga. Sustainabilitas berarti nilai dapat dibagi kepada semua pihak terkait sepanjang siklus hidup rancang bangun</paragraph>
+ <paragraph index="624" node_type="writer">Tahap II. Graph Aliran Nilai. Perumusan tujuan nilai kuantitatif serta hipotesis factor factor penyebabnya. Logika dasar adalah pemampatan nilai ke dalam bentuk-bentuk berbiaya rendah.</paragraph>
+ <paragraph index="625" node_type="writer">Tahap III. Arsitektur PSKV-S. Desain engine menggunakan instrument keras, lunak, cair, gas, dan ruang untuk melakukan pemampatan nilai dan mencapai target-targt yang mnejadi factor pneghasil nilai</paragraph>
+ <paragraph index="626" node_type="writer">Tahap IV Konstruksi dan Provisi Rancang Bangun (Life Cycle). Uji coba serta konfirmasi pencapaian tujuan rancang bangun</paragraph>
+ <paragraph index="627" node_type="writer">Metodologi riset adalah proses pengambilan kesimpulan dan keputusan yang sahih. Jadi metoda berpikir rekayasa pada empat tahap besar tersebut: </paragraph>
+ <paragraph index="628" node_type="writer">logika: melalui studi dan survey kepada pengguna</paragraph>
+ <paragraph index="629" node_type="writer">rasional: melalui stdui literature, pembuatan hipotesi, eksperimen laboratorium </paragraph>
+ <paragraph index="630" node_type="writer">kreatif: pstudi skema engines, rekombinasi, pemodelan, simulasi, uji testbed </paragraph>
+ <paragraph index="631" node_type="writer">konstruktif: studi situs, rekonfigurasi, blueprint/site-plan, instalasi, uji kelaikan, soft launching,  operational, maintenance, end of life cycle.  </paragraph>
+ <paragraph index="632" node_type="writer">Pengembangan model komputasi  ini membutuhkan kombinasi beberapa metodologi sebagaimana diringkas pada Tabel 3. Tujuan kita sekarang adalah merancang struktur internal PSKVE-S yang melakukan perilaku di atas selama siklus hidupnya. Secara khusus model internal harus memastikan bahwa pada akhir siklus hidup: (1) sumber eksternal mencapai portofolio yang diinginkan, dan (2) PSKVE-S mencapai N [$C] yang dapat diterima, memuaskan Eq. (1). </paragraph>
+ <paragraph index="633" node_type="writer">Kita memutuskan untuk menggunakan konsep PSKVE-S secara rekursif untuk mengembangkan struktur internal. Di dunia lain, kita menggunakan empat PSKVE-S internal baru, seperti yang ditunjukkan pada Gambar 3. Mereka adalah I[nnovation], F[inance], S[ales], dan A[sset] PSKVE-S. Mereka adalah pemrosesan sementara atau penyimpanan nilai dalam berbagai mata uang internal. Perhatikan bahwa Gambar hanya menunjukkan jalur aliran nilai. PSKVE-S internal yang mengoordinasikannya tidak ditampilkan. </paragraph>
+ <paragraph index="636" node_type="writer">Gambar 3 Struktur internal PSKVE-S.</paragraph>
+ <paragraph index="638" node_type="writer">Kita mengusulkan struktur internal sebagai berikut.</paragraph>
+ <paragraph index="639" node_type="writer">A-PSKVE-S memberikan nilai aset (seperti infrastruktur, platform utama, produksi, atau sumber daya manusia) ke tiga PSKVE-S internal lainnya. Ini mengambil nilai aset dari penyedia aset eksternal ([$A]), dan mengubahnya menjadi mata uang aset internal, yaitu [$AI], [$AF], dan [$AS]. Itu adalah mata uang masing-masing yang dibutuhkan oleh internal I-, F-, dan S-PSKVE-S. Seperti sebelumnya, mata uang tersebut ditukar dengan mata uang umum $C, sekali lagi sesuai dengan nilai tukar yang disepakati.</paragraph>
+ <paragraph index="640" node_type="writer">I-PSKVE-S mengambil bahan eksternal ([$M]) dari pemasok, menerapkan aset yang sesuai [$AI], dan kemudian berinovasi yang sangat dibutuhkan [$IS]. I-PSKVE-S ini sangat penting dalam menciptakan proposisi nilai PSKVE-S utama. Sebelum dapat memperoleh [$C] yang cukup dari penjualan [$IS] ke S-PSKVE-S, ia perlu membeli Bahan secara eksternal serta aset yang sesuai secara internal. Kemudian menjual [$IF] untuk meningkatkan kredit yang dibutuhkan.</paragraph>
+ <paragraph index="641" node_type="writer">S-PSKVE-S memberikan proposisi nilai yang dijanjikan kepada Pelanggan dengan menjual ( [$A]). Untuk melakukannya, diperlukan [$IS] dibeli dari I-PSKVE-S dan [$AS] dari A-PSKVE-S. Seperti biasa, S-PSKVE-S mungkin perlu mengumpulkan dana di [$C] untuk menutupi pembelian tersebut dengan menjual kredit [$SF] ke F-PSKVE-S.</paragraph>
+ <paragraph index="642" node_type="writer">Akhirnya F-PSKVE-S mengelola pendanaan yang sesuai untuk tiga A-, I-, S-PSKVE-S internal dengan membeli masing-masing [$AF], [$IF], dan [$SF] secara hati-hati. Ini memperoleh dana untuk pembelian dengan menjual [$I] kepada Financers eksternal. Ini memperkenalkan biaya pembiayaan sebesar . Merupakan tanggung jawab F-PSKVE-S untuk memastikan semua PSKVE-S internal lainnya didanai secara memadai dan tepat waktu, dengan biaya pembiayaan minimum.</paragraph>
+ <paragraph index="644" node_type="writer">PSKVE-S koordinasi (tidak ditunjukkan pada Gambar 2) memastikan sinkronisasi semua PSKVE-S internal. Ini memutuskan jumlah mata uang internal yang dipertukarkan, kurs, dan jadwal pertukaran. Rencana ini disebut model bisnis dasar PSKVE-S. Ini dilakukan untuk memastikan PSKVE-S utama mencapai N yang ditargetkan  dalam Eq (1). Inovasi khas model nilai dasar memiliki langkah-langkah berturut-turut dan berulang berikut.</paragraph>
+ <paragraph index="645" node_type="writer">Tentukan tingkat kisaran yang mungkin [$C/$S] dan jumlah kemungkinan [$S] yang dibutuhkan dalam jangka waktu dan ekonomi Pelanggan yang ditargetkan.</paragraph>
+ <paragraph index="646" node_type="writer">Rancang kemungkinan S-PSKVE-S yang dapat menjual cukup [$S] menggunakan [$AS], dan [$IS] (dan menjual [$SF] bila diperlukan) pada tingkat keuntungan prospektif yang dapat diterima, yaitu, N </paragraph>
+ <paragraph index="647" node_type="writer">Rancang kemungkinan I-PSKVE-S yang dapat menghasilkan [$IS] yang cukup menggunakan [$M], dan [$AI], (dan menjual [$IF] bila diperlukan) pada tingkat keuntungan prospektif yang dapat diterima, yaitu, N </paragraph>
+ <paragraph index="648" node_type="writer">Rancang kemungkinan A-PSKVE-S yang dapat memberikan [$AS], [$AI], dan [$AF] yang cukup menggunakan [$A] pada tingkat keuntungan prospektif yang dapat diterima, yaitu, N.</paragraph>
+ <paragraph index="649" node_type="writer">Rancang kemungkinan F-PSKVE-S yang mendukung [$C], [$C], dan [$C] dengan menjual [$I] pada tingkat keuntungan prospektif yang dapat diterima, yaitu, N, seperti yang dipersyaratkan oleh Eq. (1)</paragraph>
+ <paragraph index="650" node_type="writer">Jika Langkah 5 tidak puas, ulangi dari Langkah 2.</paragraph>
+ <paragraph index="652" node_type="writer">Inovasi model nilai harus diperbarui secara berkala. Setelah model bisnis dasar yang paling layak telah diinovasi, skenario pengembangan harus dirancang. Ini adalah rencana proyek untuk menumbuhkan PSKVE-S utama untuk mencapai potensi penuh model bisnisnya. Ini biasanya melibatkan perkembangan versi progresif dari PSKVE-S utama, sesuai dengan rencana pematangan PSKVE-S internal. Versi rencana yang berurutan diusulkan sebagai berikut.</paragraph>
+ <paragraph index="653" node_type="writer">Versi 0: Ide. Di sini persyaratan perilaku PSKVE-S dikembangkan dan disimulasikan dalam lingkungan prototyping virtual. F-PSKVE-S dan koordinasi PSKVE-S beroperasi.</paragraph>
+ <paragraph index="654" node_type="writer">Versi 1: Alfa. Di sini PSKVE-S skala yang sangat kecil beroperasi, dengan I-PSKVE-S selesai, dan sampel Pelanggan mengkonfirmasi nilai $S. Di sini kita juga mengkonfirmasi model I-PSKVE-S, terutama biaya riil untuk memproduksi model Pemasok $IS dan keluar. </paragraph>
+ <paragraph index="655" node_type="writer">Versi 2: Beta. Di sini PSKVE-S skala kecil beroperasi, dengan S-PSKVE-S selesai. Di sini kita mengkonfirmasi model S-PSKVE-S, terutama biaya riil dan pendapatan riil dari $S produksi, dan model Pelanggan kita.</paragraph>
+ <paragraph index="656" node_type="writer">Versi 3: Kandidat Rilis. Di sini PSKVE-S skala menengah beroperasi. Di sini kita mengkonfirmasi model A-PSKVE-S, terutama efisiensinya dengan skala, dan model Penyedia Aset kita.</paragraph>
+ <paragraph index="657" node_type="writer">Versi 4: Rilis Final. Di sini PSKVE-S skala penuh beroperasi. Di sini kita mengkonfirmasi skalabilitas PSKVE-S di semua PSKVE-S internal, serta model eksternal Financers kita. </paragraph>
+ <paragraph index="658" node_type="writer">Harus jelas bahwa menerapkan rencana bisnis selalu sulit karena ketidakpastian dan kompleksitas. PSKVE-S harus adaptif agar dapat beroperasi saat sedang dikembangkan. Ini membutuhkan perubahan model bisnis adaptif sesuai dengan versi tersebut serta realitas baru.  Karena stabilitas PSKVE-S harus dijaga sepanjang waktu, PSKVE-S koordinasi harus dilengkapi dengan instrumen pengendali untuk mengubah &quot;pusat gravitasi&quot; operasi PSKVE-S. Ini menyiratkan bahwa versi PSKVE-S akan terjadi sepanjang siklus hidupnya. Akibatnya, PSKVE-S harus menyertakan fungsi pengembangan PSKVE-S yang tertanam dalam PSKVE-S. Salah satu kemungkinannya adalah memiliki siklus hidup periodik PSKVE-S.</paragraph>
+ <paragraph index="660" node_type="writer">DAFTAR PUSTAKA</paragraph>
+ <paragraph index="661" node_type="writer">E. D. Beinhocker, Asal Usul Kekayaan: Evolusi, Kompleksitas, dan Pembuatan Ulang Ekonomi Secara Radikal. Boston: Harvard Business School Press. 2007</paragraph>
+ <paragraph index="662" node_type="writer">A. Z. R. Langi, &quot;Smart environments: a platform for designing connectivity in ICT-based virtual environments&quot;, Prosiding Artepolis 4 2012, ITB Bandung, 5-6 Juli 2012.</paragraph>
+ <paragraph index="663" node_type="writer">A. Z. R. Langi, &quot;Generic PSKVE Systems and Their Engine Models&quot;, Prosiding ICSET 2012, ITB Bandung, 11-12 September 2012 ISBN 978-1-4673-2374-1</paragraph>
+ <paragraph index="664" node_type="writer">A. Z. R. Langi, &quot;Rekayasa cerdas menggunakan konsep PSKVE-S&quot;, Proc.  ICSET 2012, 11-12 September 2012, hal., ISBN 978-1-4673-2374-1</paragraph>
+ <paragraph index="665" node_type="writer">A. Z. R. Langi, &quot;PSKVE-S orde kedua dan model kinerjanya&quot;, Proc. ICSET 2012,  11-12 September 2012, hlm., ISBN 978-1-4673-2374-1</paragraph>
+ <paragraph index="666" node_type="writer">A. Z. R. Langi, &quot;A theoretical framework for virtual world as creative foundation for smart environments&quot;, Prosiding Artepolis 4 2012, ITB Bandung, 5-6 Juli 2012.</paragraph>
+ <paragraph index="667" node_type="writer">C. Hein, J. Pridgen, W. Kline, &quot;RASSP virtual prototyping DSP Systems,&quot; ACM DAC 1997, Anaheim, pp 492-497</paragraph>
+ <paragraph index="668" node_type="writer">J. Surowiecki, &quot;Sejarah singkat uang,&quot; IEEE Spectrum, vol 49, no 6, hlm. 41-46, Juni 2012.</paragraph>
+ <paragraph index="669" node_type="writer">D. G. W. Birch, &quot;Biarkan seribu mata uang mekar&quot;, IEEE Spectrum, vol 49, no 6, hlm. 27-30, Juni 2012.</paragraph>
+ <paragraph index="670" node_type="writer">S. N. Neftci, Prinsip Rekayasa Keuangan. Academic Press, 556hal, 2004.</paragraph>
+ <paragraph index="671" node_type="writer">N. Morelli, &quot;Inovasi Sosial dan Konteks Industri Baru: Dapatkah Desainer &quot;Mengindustrialisasi&quot; Solusi yang Bertanggung Jawab Secara Sosial?&quot; Masalah Desain, 23(4), MIT, Boston, hlm. 3-21, 2007.</paragraph>
+ <paragraph index="672" node_type="writer">J. F. Sowa, Representasi Pengetahuan: Landasan Logis, Filosofis, dan Komputasi. Hutan Pasifik: Brooks/Cole. 2000</paragraph>
+ <paragraph index="673" node_type="writer">Langi, A.Z.R., Cahyadi E., 2012. Ikhtisar Sinyal dan Sistem Linier waktu kontinu dan waktu diskrit, (1s Ed), PPTIK ITB, Bandung. </paragraph>
+ <paragraph index="674" node_type="writer">WC Kim dan R. Mauborgne, Strategi samudra biru, 2005, Harvard Business School Press.</paragraph>
+ <paragraph index="675" node_type="writer">Ehlers JF, 2004. Analisis cybernetic untuk saham dan Futures: Teknologi DSP Mutakhir untuk Meningkatkan Perdagangan Anda, Perdagangan Wiley</paragraph>
+ <paragraph index="676" node_type="writer">Miller, R. M., 1990. Analisis Keuangan Berbantuan Komputer. Addison Wesley,.</paragraph>
+ <paragraph index="680" node_type="writer">INDIKATOR KEBERHASILAN (TARGET CAPAIAN)</paragraph>
+ <paragraph index="682" node_type="writer">JADWAL PELAKSANAAN</paragraph>
+ <paragraph index="683" node_type="writer">Februari – Maret 2024: Riset Pasar dan Kebutuhan</paragraph>
+ <paragraph index="684" node_type="writer">Februari – Mei 2024: Studi Literatur</paragraph>
+ <paragraph index="685" node_type="writer">Juni - Juli 2024: Desain Engineering Instrumen</paragraph>
+ <paragraph index="686" node_type="writer">Agustus-September 2024 Studi Penerapan</paragraph>
+ <paragraph index="687" node_type="writer">Oktober-November 2024: Publikasi dan Submisi</paragraph>
+ <paragraph index="689" node_type="writer">PETA JALAN (ROAD MAP) RISET</paragraph>
+ <paragraph index="690" node_type="writer">Pada Tabel 4 diringkas peta jalan riset yang merupakan sebuah pilihan rute fokus riset untuk mengembangkan tubuh pengetahuan ilmu rekayasa ke dalam PRC, dengan permasalahan pengmbangn lingkungan hidup yang sehat, kreatif, aman, dan berkelanjutan. Terdapat lima lapisan riset dan pengembangan: Sains, Teknologi, Produk, Pengguna, dan Pasar. Peta jalan ini memiliki tema pengembangan Perangkat Keras, Perangkat Lunak, Perangkat Cair, Perangkat Gas, Ruang Cerdas, dan Ruang Spiritual. Riset Sains berkembang dari Pemorosesan Fraktal, Pemorsesan Multifraktal, Rekayasa Sistem Pemrosesan Sinyal (SPS), Rekayasa PSKV, Rekayasa Lingkungan Hidup Cerdas, dan Rekayasa Ruang Hidup Spiritual.</paragraph>
+ <paragraph index="692" node_type="writer">Tabel 4 Ringkasan Peta Jalan Riset (Versi 0.2024)</paragraph>
+ <object index="693" name="Table6" object_type="table"/>
+ <paragraph index="695" node_type="writer" parent_index="693">TEMA</paragraph>
+ <paragraph index="698" node_type="writer" parent_index="693">Perangkat Keras</paragraph>
+ <paragraph index="701" node_type="writer" parent_index="693">Perangkat Lunak</paragraph>
+ <paragraph index="704" node_type="writer" parent_index="693">Perangkat Cair</paragraph>
+ <paragraph index="707" node_type="writer" parent_index="693">Perangkat Gas</paragraph>
+ <paragraph index="710" node_type="writer" parent_index="693">Ruang Cerdas</paragraph>
+ <paragraph index="713" node_type="writer" parent_index="693">Ruang Spiritual</paragraph>
+ <paragraph index="716" node_type="writer" parent_index="693">MARKET</paragraph>
+ <paragraph index="719" node_type="writer" parent_index="693">Masyarakat Sadar Covid</paragraph>
+ <paragraph index="722" node_type="writer" parent_index="693">Home Care Market</paragraph>
+ <paragraph index="725" node_type="writer" parent_index="693">Pasar Rumah Sehat</paragraph>
+ <paragraph index="728" node_type="writer" parent_index="693">Pasar Home Learning Productivity</paragraph>
+ <paragraph index="731" node_type="writer" parent_index="693">Pasar Ekonomi Rumah</paragraph>
+ <paragraph index="734" node_type="writer" parent_index="693">Pasar Kreatif Spiritual</paragraph>
+ <paragraph index="737" node_type="writer" parent_index="693">USER</paragraph>
+ <paragraph index="740" node_type="writer" parent_index="693">Pasien Covid</paragraph>
+ <paragraph index="743" node_type="writer" parent_index="693">Pasien Umum</paragraph>
+ <paragraph index="746" node_type="writer" parent_index="693">Masyarakat Umum</paragraph>
+ <paragraph index="749" node_type="writer" parent_index="693">Masyarakat Profesional</paragraph>
+ <paragraph index="752" node_type="writer" parent_index="693">Masyarakat Ekonomi</paragraph>
+ <paragraph index="755" node_type="writer" parent_index="693">Masy Spiritual</paragraph>
+ <paragraph index="758" node_type="writer" parent_index="693">PRODUK</paragraph>
+ <paragraph index="761" node_type="writer" parent_index="693">Coughing Pre Screening</paragraph>
+ <paragraph index="764" node_type="writer" parent_index="693">Home Based Recovery Room</paragraph>
+ <paragraph index="767" node_type="writer" parent_index="693">Smart Healthy Home, Robots</paragraph>
+ <paragraph index="770" node_type="writer" parent_index="693">Productive Learning Home</paragraph>
+ <paragraph index="773" node_type="writer" parent_index="693">Home Based Virtual Economy</paragraph>
+ <paragraph index="776" node_type="writer" parent_index="693">Home Based Virtual World</paragraph>
+ <paragraph index="779" node_type="writer" parent_index="693">TEKNOLOGI</paragraph>
+ <paragraph index="782" node_type="writer" parent_index="693">Correlation Fractal Dimension; Taken ED; Grassberger Algorithm</paragraph>
+ <paragraph index="785" node_type="writer" parent_index="693">DSP System, Modelica Platform</paragraph>
+ <paragraph index="788" node_type="writer" parent_index="693">Modelica Platform for SPS Smart Engineering</paragraph>
+ <paragraph index="791" node_type="writer" parent_index="693">Modelica Platform for PSKV Smart Engineering</paragraph>
+ <paragraph index="794" node_type="writer" parent_index="693">Modelica Platform for Living Space Smart Engineering</paragraph>
+ <paragraph index="797" node_type="writer" parent_index="693">Modelica Platform for Spiritual Space Smart Engineering</paragraph>
+ <paragraph index="800" node_type="writer" parent_index="693">SAINS</paragraph>
+ <paragraph index="803" node_type="writer" parent_index="693">Fraktal Processing</paragraph>
+ <paragraph index="806" node_type="writer" parent_index="693">Multifractal Processing</paragraph>
+ <paragraph index="809" node_type="writer" parent_index="693">SPS Robotic Engineering</paragraph>
+ <paragraph index="812" node_type="writer" parent_index="693">PSKV Engineering</paragraph>
+ <paragraph index="815" node_type="writer" parent_index="693">Smart Living Engineering</paragraph>
+ <paragraph index="818" node_type="writer" parent_index="693">Smart Spiritual Engineering</paragraph>
+ <paragraph index="821" node_type="writer" parent_index="693">TAHUN</paragraph>
+ <paragraph index="824" node_type="writer" parent_index="693">2021</paragraph>
+ <paragraph index="827" node_type="writer" parent_index="693">2022</paragraph>
+ <paragraph index="830" node_type="writer" parent_index="693">2023</paragraph>
+ <paragraph index="833" node_type="writer" parent_index="693">2024</paragraph>
+ <paragraph index="836" node_type="writer" parent_index="693">2025</paragraph>
+ <paragraph index="839" node_type="writer" parent_index="693">2026</paragraph>
+ <paragraph index="844" node_type="writer">USULAN BIAYA RISET</paragraph>
+ <paragraph index="845" node_type="writer">Belanja pegawai</paragraph>
+ <object index="846" name="Table7" object_type="table"/>
+ <paragraph index="848" node_type="writer" parent_index="846">No.</paragraph>
+ <paragraph index="851" node_type="writer" parent_index="846">Pelaksana Kegiatan</paragraph>
+ <paragraph index="854" node_type="writer" parent_index="846">Jumlah Orang</paragraph>
+ <paragraph index="857" node_type="writer" parent_index="846">Honor per Jam</paragraph>
+ <paragraph index="860" node_type="writer" parent_index="846">Jumlah Jam/Bulan</paragraph>
+ <paragraph index="863" node_type="writer" parent_index="846">Jumlah Bulan/Tahun</paragraph>
+ <paragraph index="866" node_type="writer" parent_index="846">Jumlah Biaya (Rp)</paragraph>
+ <paragraph index="869" node_type="writer" parent_index="846">1.</paragraph>
+ <paragraph index="872" node_type="writer" parent_index="846">Peneliti Utama</paragraph>
+ <paragraph index="875" node_type="writer" parent_index="846">1</paragraph>
+ <paragraph index="878" node_type="writer" parent_index="846">40.000</paragraph>
+ <paragraph index="881" node_type="writer" parent_index="846">24</paragraph>
+ <paragraph index="884" node_type="writer" parent_index="846">9</paragraph>
+ <paragraph index="887" node_type="writer" parent_index="846">34.9560.000</paragraph>
+ <paragraph index="890" node_type="writer" parent_index="846">2.</paragraph>
+ <paragraph index="893" node_type="writer" parent_index="846">Anggota Peneliti</paragraph>
+ <paragraph index="896" node_type="writer" parent_index="846">2</paragraph>
+ <paragraph index="899" node_type="writer" parent_index="846">30.000</paragraph>
+ <paragraph index="902" node_type="writer" parent_index="846">10</paragraph>
+ <paragraph index="905" node_type="writer" parent_index="846">9</paragraph>
+ <paragraph index="908" node_type="writer" parent_index="846">21.600.000</paragraph>
+ <paragraph index="911" node_type="writer" parent_index="846">3.</paragraph>
+ <paragraph index="914" node_type="writer" parent_index="846">Asisten Peneliti</paragraph>
+ <paragraph index="932" node_type="writer" parent_index="846">4.</paragraph>
+ <paragraph index="935" node_type="writer" parent_index="846">Teknisi</paragraph>
+ <paragraph index="953" node_type="writer" parent_index="846">Jumlah total biaya honor (Rp)</paragraph>
+ <paragraph index="956" node_type="writer" parent_index="846">79.200.000</paragraph>
+ <paragraph index="959" node_type="writer">Belanja barang </paragraph>
+ <object index="960" name="Table8" object_type="table"/>
+ <paragraph index="962" node_type="writer" parent_index="960">No.</paragraph>
+ <paragraph index="965" node_type="writer" parent_index="960">Peralatan/Bahan</paragraph>
+ <paragraph index="968" node_type="writer" parent_index="960">Volume</paragraph>
+ <paragraph index="971" node_type="writer" parent_index="960">Satuan</paragraph>
+ <paragraph index="974" node_type="writer" parent_index="960">Biaya Satuan (Rp)</paragraph>
+ <paragraph index="977" node_type="writer" parent_index="960">Jumlah Biaya (Rp)</paragraph>
+ <paragraph index="980" node_type="writer" parent_index="960">1.</paragraph>
+ <paragraph index="983" node_type="writer" parent_index="960">Samsung 49&quot; Odyssey Neo G9 Quantum Mini-LED 240Hz 1ms Dual-QHD HDR2000 Gaming Monitor with 1000R Curved Screen</paragraph>
+ <paragraph index="986" node_type="writer" parent_index="960">1</paragraph>
+ <paragraph index="989" node_type="writer" parent_index="960">Unit</paragraph>
+ <paragraph index="992" node_type="writer" parent_index="960">26.000.000</paragraph>
+ <paragraph index="995" node_type="writer" parent_index="960">26.000.000</paragraph>
+ <paragraph index="998" node_type="writer" parent_index="960">2.</paragraph>
+ <paragraph index="1001" node_type="writer" parent_index="960">Lenovo Legion Go</paragraph>
+ <paragraph index="1004" node_type="writer" parent_index="960">1</paragraph>
+ <paragraph index="1007" node_type="writer" parent_index="960">Unit</paragraph>
+ <paragraph index="1010" node_type="writer" parent_index="960">14.000.000</paragraph>
+ <paragraph index="1013" node_type="writer" parent_index="960">14.000.000</paragraph>
+ <paragraph index="1016" node_type="writer" parent_index="960">Jumlah total biaya barang (Rp)</paragraph>
+ <paragraph index="1019" node_type="writer" parent_index="960">40.000.000</paragraph>
+ <paragraph index="1022" node_type="writer">Belanja jasa</paragraph>
+ <paragraph index="1023" node_type="writer">Honor pihak ketiga non PNS ITB dan ITB-BHMN atau asisten mahasiswa</paragraph>
+ <object index="1024" name="Table9" object_type="table"/>
+ <paragraph index="1026" node_type="writer" parent_index="1024">No.</paragraph>
+ <paragraph index="1029" node_type="writer" parent_index="1024">Pelaksana Kegiatan</paragraph>
+ <paragraph index="1032" node_type="writer" parent_index="1024">Jumlah Orang</paragraph>
+ <paragraph index="1035" node_type="writer" parent_index="1024">Honor per Jam</paragraph>
+ <paragraph index="1038" node_type="writer" parent_index="1024">Jumlah Jam/Bulan</paragraph>
+ <paragraph index="1041" node_type="writer" parent_index="1024">Jumlah Bulan/Tahun</paragraph>
+ <paragraph index="1044" node_type="writer" parent_index="1024">Jumlah Biaya (Rp)</paragraph>
+ <paragraph index="1047" node_type="writer" parent_index="1024">1.</paragraph>
+ <paragraph index="1050" node_type="writer" parent_index="1024">Asisten</paragraph>
+ <paragraph index="1068" node_type="writer" parent_index="1024">2.</paragraph>
+ <paragraph index="1071" node_type="writer" parent_index="1024">Mahasiswa</paragraph>
+ <paragraph index="1074" node_type="writer" parent_index="1024">1</paragraph>
+ <paragraph index="1077" node_type="writer" parent_index="1024">25.000</paragraph>
+ <paragraph index="1080" node_type="writer" parent_index="1024">80</paragraph>
+ <paragraph index="1083" node_type="writer" parent_index="1024">8</paragraph>
+ <paragraph index="1086" node_type="writer" parent_index="1024">20.000.000</paragraph>
+ <paragraph index="1089" node_type="writer" parent_index="1024">3.</paragraph>
+ <paragraph index="1092" node_type="writer" parent_index="1024">Tenaga penunjang</paragraph>
+ <paragraph index="1110" node_type="writer" parent_index="1024">Jumlah total biaya honor (Rp)</paragraph>
+ <paragraph index="1113" node_type="writer" parent_index="1024">20.000.000</paragraph>
+ <paragraph index="1117" node_type="writer">Perjalanan</paragraph>
+ <object index="1118" name="Table10" object_type="table"/>
+ <paragraph index="1120" node_type="writer" parent_index="1118">No.</paragraph>
+ <paragraph index="1123" node_type="writer" parent_index="1118">Tujuan</paragraph>
+ <paragraph index="1126" node_type="writer" parent_index="1118">Volume</paragraph>
+ <paragraph index="1129" node_type="writer" parent_index="1118">Biaya Satuan (Rp)</paragraph>
+ <paragraph index="1132" node_type="writer" parent_index="1118">Jumlah Biaya (Rp)</paragraph>
+ <paragraph index="1135" node_type="writer" parent_index="1118">1.</paragraph>
+ <paragraph index="1138" node_type="writer" parent_index="1118">Lokal dan dalam negeri</paragraph>
+ <paragraph index="1141" node_type="writer" parent_index="1118">10</paragraph>
+ <paragraph index="1144" node_type="writer" parent_index="1118">1.000.000</paragraph>
+ <paragraph index="1147" node_type="writer" parent_index="1118">10.000.000</paragraph>
+ <paragraph index="1150" node_type="writer" parent_index="1118">3.</paragraph>
+ <paragraph index="1165" node_type="writer" parent_index="1118">Jumlah total biaya perjalanan (Rp)</paragraph>
+ <paragraph index="1168" node_type="writer" parent_index="1118">10.000.000</paragraph>
+ <paragraph index="1171" node_type="writer">Sewa Alat, Jasa Layanan dan Lain-lain</paragraph>
+ <object index="1172" name="Table11" object_type="table"/>
+ <paragraph index="1174" node_type="writer" parent_index="1172">No.</paragraph>
+ <paragraph index="1177" node_type="writer" parent_index="1172">Nama Alat/Jasa Layanan</paragraph>
+ <paragraph index="1180" node_type="writer" parent_index="1172">Volume</paragraph>
+ <paragraph index="1183" node_type="writer" parent_index="1172">Biaya Satuan (Rp)</paragraph>
+ <paragraph index="1186" node_type="writer" parent_index="1172">Jumlah Biaya (Rp)</paragraph>
+ <paragraph index="1189" node_type="writer" parent_index="1172">1.</paragraph>
+ <paragraph index="1192" node_type="writer" parent_index="1172">Internet High Speed &amp; Cloud Fees</paragraph>
+ <paragraph index="1195" node_type="writer" parent_index="1172">10</paragraph>
+ <paragraph index="1198" node_type="writer" parent_index="1172">1.000.000</paragraph>
+ <paragraph index="1201" node_type="writer" parent_index="1172">10.000.000</paragraph>
+ <paragraph index="1204" node_type="writer" parent_index="1172">2.</paragraph>
+ <paragraph index="1207" node_type="writer" parent_index="1172">REgistrasi Konferensi dan Publikassi</paragraph>
+ <paragraph index="1210" node_type="writer" parent_index="1172">1</paragraph>
+ <paragraph index="1213" node_type="writer" parent_index="1172">30.000.000</paragraph>
+ <paragraph index="1216" node_type="writer" parent_index="1172">30.000.000</paragraph>
+ <paragraph index="1219" node_type="writer" parent_index="1172">3.</paragraph>
+ <paragraph index="1228" node_type="writer" parent_index="1172">4</paragraph>
+ <paragraph index="1234" node_type="writer" parent_index="1172">Jumlah total biaya sewa alat, jasa layanan, dll. (Rp)</paragraph>
+ <paragraph index="1237" node_type="writer" parent_index="1172">40.000.000</paragraph>
+ <paragraph index="1240" node_type="writer">CV TIM PENELITI</paragraph>
+ <object name="Shape 3" alt="" object_type="shape" description=""/>
+ <object name="Shape 2" alt="" object_type="shape" description=""/>
+ <object name="Shape 4" alt="" object_type="shape" description=""/>
+</indexing>

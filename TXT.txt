@@ -1,0 +1,5 @@
+pdftk proposal.pdf Budget.pdf materi/pg_0011.pdf materi/pg_0012.pdf materi/pg_0013.pdf cat output proposal2.pdf
+
+pdftk A=proposal2.pdf B=identitas_0003.pdf cat A1 B1 A3-end output proposal3.pdf
+
+pdftk cover_0001.pdf proposal3.pdf cat output proposal4.pdf

@@ -1,6 +1,5 @@
 #set page(paper: "a4", margin: (x: 2cm, y: 2.5cm))
-#set text(font: "linux libertine", size: 11pt)
-
+#set text(font: "liberation sans", size: 11pt)
 // Title
 #align(center)[
   #upper(text(weight: "bold")[Identitas Proposal])
@@ -10,17 +9,17 @@
 
 // Section 1 & 2.1 Header
 #grid(
-  columns: (20pt, 150pt, 5pt, 1fr),
+  columns: (20pt, 20pt, 150pt, 5pt, 1fr),
   gutter: 0.6em,
-  [1.], [Judul], [:], [],
-  [2.], [Tim Riset], [:], [],
-  [], [2.1 Ketua Tim], [], [],
-  [], [a. Nama Lengkap], [:], [],
-  [], [b. Jabatan Fungsional/Golongan], [:], [],
-  [], [c. NIP], [:], [],
-  [], [d. Fakultas/Sekolah/Pusat], [:], [],
-  [], [e. Kelompok Keahlian], [:], [],
-  [], [f. Alamat /Telp/Fax/E-mail], [:], []
+  grid.cell(colspan: 3)[1. Judul], [:], [Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems], 
+  grid.cell(colspan: 3)[2. Tim Riset], [], [], 
+  [], grid.cell(colspan: 2)[2.1 Ketua Tim], [],[], 
+  [], [], [a. Nama Lengkap],[:], [Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.], 
+  [], [], [b. Jabatan Fungsional/Golongan],[:], [Guru besar / IV e], 
+  [], [], [c. NIP],[:], [], 
+  [], [], [d. Fakultas/Sekolah/Pusat],[:], [Sekolah Teknik Elektro dan Informatika (STEI)], 
+  [], [], [e. Kelompok Keahlian],[:], [Teknologi Informasi], 
+  [], [], [f. Alamat /Telp/Fax/E-mail],[:], [],
 )
 
 #v(0.5em)
@@ -34,12 +33,12 @@
   align: (center + horizon),
   inset: 5pt,
   table.header(
-    [No.], 
-    [Nama dan Gelar\ Akademik], 
-    [Bidang Keahlian], 
-    [Unit Kerja/\ Lembaga], 
+    [No.],
+    [Nama dan Gelar\ Akademik],
+    [Bidang Keahlian],
+    [Unit Kerja/\ Lembaga],
     table.cell(colspan: 2)[Alokasi Waktu],
-    [], [], [], [], [Jam/mg], [bulan]
+    [], [], [], [], [Jam/mg], [bulan],
   ),
   [1.], [], [], [], [], [],
   [2.], [], [], [], [], [],
@@ -63,11 +62,8 @@
   columns: (30pt, 1fr, 1fr, 100pt),
   align: (center + horizon),
   inset: 5pt,
-  table.header(
-    [No.], [Judul], [Nama Jurnal/Publikasi], [Keterangan]
-  ),
-  [], [], [], text(size: 8pt)[(Isikan dengan\ Q1/Q2/Q3/Q4/Konferensi)],
-  [1.], [], [], [],
+  table.header([No.], [Judul], [Nama Jurnal/Publikasi], [Keterangan]),
+  [1.], [Meta-Architecture of Triune-Intelligence Smart Engineering (TISE 3.0): A Prompt-Based Framework for Narrative-Empowered Multidisciplinary Systems], [IEEE Systems], [Q1],
   [2.], [], [], [],
 )
 
@@ -76,7 +72,7 @@
 // Declaration and Signature
 #block(width: 100%)[
   Proposal ini belum pernah didanai oleh atau diusulkan ke sumber lain.
-  
+
   Apabila target luaran penelitian sebagaimana disebutkan di atas tidak tercapai, maka saya bersedia mengambil langkah-langkah korektif dan bertanggung jawab penuh atas segala konsekuensi penggunaan dana penelitian tersebut.
 ]
 

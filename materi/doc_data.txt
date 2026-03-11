@@ -1,0 +1,74 @@
+InfoBegin
+InfoKey: Creator
+InfoValue: PDFium
+InfoBegin
+InfoKey: Producer
+InfoValue: PDFium
+PdfID0: 0385293b807b4c02f97f8ab273bcd8a5
+PdfID1: 0385293b807b4c02f97f8ab273bcd8a5
+NumberOfPages: 13
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 3
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 4
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 5
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 6
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 7
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 8
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 9
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 10
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 11
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 12
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
+PageMediaBegin
+PageMediaNumber: 13
+PageMediaRotation: 0
+PageMediaRect: 0 0 595.56 842.04
+PageMediaDimensions: 595.56 842.04
