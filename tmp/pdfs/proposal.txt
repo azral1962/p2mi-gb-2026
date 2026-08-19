@@ -1,0 +1,586 @@
+            PROPOSAL
+PROGRAM RISET P2MI STEI - GURU BESAR
+
+
+
+
+   Meta-Architecture of Triune-Intelligence Smart
+      Engineering (TISE 3.0): A Prompt-Based
+       Framework for Narrative-Empowered
+             Multidisciplinary Systems
+
+
+                     Ketua Tim Peneliti:
+
+          Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.
+
+
+        Kelompok Keahlian      : Teknologi Informasi
+
+
+
+
+ SEKOLAH TEKNIK ELEKTRO DAN INFORMATIKA
+       INSTITUT TEKNOLOGI BANDUNG
+                       MARET 2026
+Daftar Isi
+LEMBAR PENGESAHAN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠2
+1. RINGKASAN PROPOSAL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠3
+2. PENDAHULUAN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠3
+    2.1 Latar belakang masalah . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠3
+    2.2 Tujuan riset . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠7
+3. METODOLOGI . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠8
+4. DAFTAR PUSTAKA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠9
+5. INDIKATOR KEBERHASILAN (TARGET CAPAIAN) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠9
+6. JADWAL PELAKSANAAN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠10
+7. PETA JALAN (ROAD MAP) RISET . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠11
+8. USULAN BIAYA RISET . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠14
+    8.1 Belanja Pegawai (Maksimum 30%) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠14
+    8.2 Belanja Barang . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠15
+    8.3 Belanja Jasa . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠15
+9. CV TIM PENELITI . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ⁠16
+
+
+
+
+                                                                                            1
+ IDENTITAS PROPOSAL
+1.    Judul                                         :     Meta-Architecture of Triune-Intelligence Smart
+                                                          Engineering (TISE 3.0): A Prompt-Based Framework
+                                                          for Narrative-Empowered Multidisciplinary Systems
+2.    Tim Riset
+      2.1 Ketua Tim
+           a. Nama Lengkap                          :     Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D.
+           b Jabatan Fungsional/Golongan            :     Guru Besar / IV-E
+           .
+           c. NIP                                   :     131902360 / 196208171990031002
+           d Fakultas/Sekolah/Pusat                 :     Sekolah Teknik Elektro dan Informatika
+           .
+           e. Alamat /Telp/Fax/E-mail               :     Gedung Labtek VIII Lantai 3 / 022-2500985/
+                                                          armein@itb.ac.id
+
+
+
+       2.2 Anggota Tim Riset:
+                                                                          Unit Kerja/       Alokasi Waktu
+           No.      Nama dan Gelar Akademik        Bidang Keahlian
+                                                                           Lembaga        Jam/mg     bulan
+                                                  Multimdeia
+              1.   Dr. Baskara Nugraha, ST, MT                           KK-TI STEI       10           10
+                                                  System
+              2.   Dr. Kusprasapta, ST, MT        Sistem Robotik         KK-TI STEI       10           10
+                                                  Mahasiswa S3-
+              3.   Teddy Marcus Zakaria           STEI ITB               Asisten          20           10
+                                                  332240005
+
+
+3. Anggaran dan Luaran
+ 1. Biaya yang diusulkan                                : Rp. 150.000.000,-
+ 2. Target output (keluaran) Riset                      :
+
+
+           No.                         Judul                                  Target Jurnal Q1          Jumlah
+
+                                                                       IIEEE Transactions on
+                   Meta-Architecture of Triune-Intelligence Smart
+                                                                       Systems, Man, and
+                   Engineering (TISE 3.0): A Prompt-Based
+              1.                                                       Cybernetics: Systems, or EEE     1
+                   Framework for Narrative-Empowered
+                                                                       System Journal / IEEE
+                   Multidisciplinary Systems
+                                                                       System Intelligence/
+
+
+
+       Proposal ini belum pernah didanai oleh atau diusulkan ke sumber lain.
+
+     Mengetahui,                                               Bandung, 12 Maret 2026
+     Ketua Kelompok Keahlian Teknologi                         Ketua Tim Riset
+     Informasi.
+
+
+
+
+     Prof. Dr. Ir. Suhardi                                     Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D
+     NIP. 19631211 19900110 02                                 NIP. 19620817 19900310 02
+1. RINGKASAN PROPOSAL
+Rekayasa sistem multidisiplin modern tengah beralih dari optimasi artefak fisik menuju
+perancangan sistem sosio-teknis (Socio-Technical Systems) yang kompleks. Paradigma tradisional
+gagal mengakomodasi elemen kesejahteraan psikologis manusia dan kompresi nilai secara
+bersamaan. Riset ini mengusulkan evolusi paradigma Triune-Intelligence Smart Engineering (TISE)
+menuju TISE 3.0, sebuah Meta-Artefak autopoietik yang dirancang untuk menjawab Research
+Question: “Bagaimana menyatukan termodinamika penciptaan nilai fisik (Sistem ENERGON/
+PSKVE), orkestrasi agen otonom (Siklus PUDAL), dan pemberdayaan Identitas Naratif pemangku
+kepentingan ke dalam satu meta-arsitektur rekursif berbasis prompt?”.
+Riset ini akan membangun platform TISE 3.0 menggunakan integrasi Multi-Agent System
+(MAS) berbasis Large Language Models (LLMs) yang bertindak sebagai Meta-Architect,
+Generative Engineer, dan Critic. Sistem ini akan secara otomatis mendekomposisi prompt
+bahasa alami berentropi tinggi menjadi spesifikasi arsitektur SysML v2 berentropi rendah, lalu
+mengeksekusinya untuk menghasilkan artefak TISE 2.0. Artefak yang dihasilkan dirancang secara
+khusus untuk memfasilitasi “Siklus Reflektif” yang memberdayakan manusia sebagai Protagonis-
+Penulis atas narasi hidup mereka. Validasi framework akan dilakukan menggunakan model
+W-Model yang mengintegrasikan lapisan ASTF (Application, System, Technology, Fundamental)
+dengan matriks evaluasi PICOC. Hasil akhir dari riset ini adalah bukti konsep kompresi nilai (𝑉 =
+𝑈 /𝐶) yang akan dipublikasikan di jurnal internasional bereputasi Q1, memperkuat target ITB
+dalam QS WUR 150.
+
+2. PENDAHULUAN
+Proposal ini mempresentasikan meta-arsitektur dari Triune-Intelligence Smart Engineering
+(TISE 3.0), sebuah kerangka kerja berbasis prompt yang dirancang untuk sistem multidisiplin
+yang diperkuat oleh narasi. Materi ini merupakan bagian dari Proposal Riset PPMI STEI ITB 2026
+yang diajukan oleh Peneliti Utama, Prof. Ir. Armein Z. R. Langi, M.Sc., Ph.D..
+
+2.1 Latar belakang masalah
+Sebagaimana diperlihatkan pada Gambar 1, rekayasa tradisional saat ini telah mencapai batas
+asimtotiknya dalam hal efektivitas sistem. Terdapat krisis fundamental di mana:
+• Paradigma lama memisahkan komputasi teknis dari kondisi psikologis manusia.
+• Manusia direduksi menjadi sekadar operator mekanis.
+• Sistem modern gagal beroperasi lebih jauh karena tidak mengakomodasi peran manusia sebagai
+  Homo Narrans—pencari makna dan pencerita atas kehidupannya sendiri.
+
+
+
+
+                                               3
+             Gambar 1: Rekayasa tradisional telah mencapai batas asimptotiknya.
+Selanjutnya sebagaimana diperlihatkan pada Gambar 2, evolusi paradigma rekayasa terbagi
+menjadi tiga fase utama:
+• SE Dasar: Berfokus pada optimasi fisik menggunakan mekanisme model PSKVE dan mesin
+  ENERGON untuk mengubah potensi menjadi kerja kinetik.
+• TISE 1.0 & 2.0: Berfokus pada sistem sosio-teknis dengan mekanisme agen otonom (siklus
+  PUDAL) dan ko-kreasi naratif, di mana manusia diberdayakan sebagai protagonis.
+• Krisis Saat Ini: Membangun ekosistem TISE 2.0 secara manual terbukti sangat mahal, lambat,
+  dan memiliki kompleksitas kognitif yang tinggi, sehingga membatasi skalabilitas.
+
+
+
+
+                                             4
+             Gambar 2: Evolusi paradigma rekayasa: menuju sistem sosio-teknis.
+Evolusi TISE dibangun untuk menutup kesenjangan ini secara bertahap. Model dasar Smart
+Engineering (SE) memodelkan realitas dalam ruang 5 dimensi PSKVE (Produk, Servis, Knowledge,
+Value, Environment) yang digerakkan oleh “Mesin ENERGON” (mengubah potensi menjadi
+kerja kinetik). TISE 1.0 mengintegrasikan siklus PUDAL (Perceive, Understand, Decision, Act,
+Learning) untuk mengubah artefak statis menjadi agen otonom. Selanjutnya, TISE 2.0 melakukan
+pergeseran radikal dari “orkestrasi tugas” menjadi “ko-kreasi naratif,” di mana Naskah (Script)
+sistem tidak lagi sekadar prompt instruksi, melainkan Epik Personal yang memberdayakan
+Identitas Naratif (Agensi dan Penebusan) dari stakeholder.
+Namun, membangun ekosistem TISE 2.0 secara manual sangat mahal dan kompleks. Oleh
+karena itu, muncul The Great Question: “Bagaimana kita merekayasa sistem yang mampu
+merekayasa sistem tersebut secara mandiri (autopoietik) sekaligus memadukan ENERGON, PUDAL,
+dan Pemberdayaan Naratif?”. (Lihat Gambar 3.) Kebutuhan ini mendasari urgensi TISE 3.0 sebagai
+“Meta-Artefak” berbasis prompt yang beroperasi sebagai Konstruktor Universal untuk melakukan
+“Kompresi Nilai Termodinamika” (𝑉 = 𝑈 /𝐶).
+
+
+
+
+                                              5
+                         Gambar 3: Pertanyaan besar dari TISE 3.0.
+Pertanyaan besar dalam TISE 3.0 adalah bagaimana menyatukan termodinamika fisik, identitas
+naratif, dan orkestrasi otonom ke dalam satu meta-arsitektur rekursif yang mampu membangun
+dirinya sendiri.(Lihat Gambar 4)
+
+
+
+
+                      Gambar 4: Konsep TISE 3.0: sebuah meta sistem.
+Sebagaimana diperlihatkan pada Gambar 5, TISE 3.0 beroperasi sebagai Konstruktor Universal
+Berbasis Prompt dengan proses sebagai berikut:
+
+
+                                            6
+1. High-Entropy Prompt: Input berupa niat dan narasi bahasa alami manusia.
+2. TISE 3.0 Meta-Artifact: Melakukan kompresi nilai termodinamika berdasarkan formula 𝑉 =
+   𝑈 /𝐶.
+3. Low-Entropy SysML v2: Menghasilkan spesifikasi arsitektur sistem yang terstruktur.
+4. TISE 2.0 Artifact: Terciptanya sistem sosio-teknis yang siap memberdayakan naratif manusia.
+
+
+
+
+                 Gambar 5: TISE 3.0: Konstruktor uniuversal berbasis prompt.
+
+2.2 Tujuan riset
+1. Memformulasikan landasan teoritis dan arsitektural TISE 3.0 sebagai Meta-Artefak Rekayasa
+   berbasis Sistem Multi-Agen (MAS).
+2. Membangun dan mensimulasikan purwarupa TISE 3.0 yang mengonversi prompt entropi
+   tinggi menjadi artefak TISE 2.0 (melalui spesifikasi SysML v2).
+3. Mempublikasikan penemuan ini sebagai The Great Answer di Jurnal Internasional Bereputasi
+   Q1 (Target: IEEE Transactions).
+Sebagaimana digambarkan pada Gambar 6, Implementasi ini menggunakan sistem multi-agen
+berbasis Large Language Model (LLM) yang terdiri dari:
+• Meta-Architect Agent: Menggunakan Chain-of-Thought untuk memecah prompt menjadi
+  rancangan arsitektur berstandar SysML v2.
+• Generative Engineer Agent: Mengeksekusi rancangan menjadi naskah teknis dan kode
+  algoritma (Partitur Generatif).
+• Critic Agent: Menguji desain secara ketat terhadap batasan hukum alam atau Natural
+  Intelligence.
+
+
+                                              7
+                Gambar 6: Orketrasi Sistem Multi-Agen (MAS) berbasis LLM.
+
+3. METODOLOGI
+Penelitian ini menggunakan W-Model TISE sebagai kerangka kerja validasi berkelanjutan (lihat
+Gambar 7):
+• Dekomposisi ASTF: Kompresi semantik niat pengguna ke dalam logika ontologi empat level:
+  Application, System, Technology, dan Fundamental.
+• Validasi PICOC: Penentuan kriteria pengujian untuk mengukur efektivitas katalisator naratif
+  pengguna melalui integrasi dan eksekusi FTSA.
+Untuk mencapai klaim kompresi nilai, metodologi riset ini akan dieksekusi menggunakan
+kerangka kerja TISE W-Model (Evolusi dari V-Model). W-Model menjamin validasi
+berkelanjutan di seluruh lapisan arsitektur sosio-teknis:
+1. Outer Left Leg (Dekomposisi ASTF): Proses dimulai dengan kompresi semantik.
+   Membangun sistem yang menerjemahkan niat stakeholder (bahasa alami) menjadi spesifikasi
+   logis menggunakan ontologi PSKVE pada 4 level: Application, System, Technology, Fundamental
+   (ASTF).
+2. Inner Left Leg (Desain Internal MAS): Rekayasa agen AI berbasis LLM (Kecerdasan
+   Rasional) yang bertindak sebagai:
+   • Meta-Architect Agent: Menggunakan Chain-of-Thought untuk menghasilkan arsitektur
+     SysML v2.
+   • Generative Engineer Agent: Mengeksekusi SysML v2 menjadi kode algoritma (naskah dan
+     partitur).
+   • Critic Agent: Menguji desain terhadap batasan hukum alam (Natural Intelligence).
+
+
+
+                                              8
+3. Inner Right Leg (Persiapan Validasi PICOC): Mendefinisikan kriteria validasi berbasis
+   Population, Intervention, Control, Outcome, Context (PICOC) untuk mengukur keberhasilan
+   kompresi nilai dan efektivitas katalisator naratif (Prompts 2.0) dalam membangun Agensi
+   pengguna.
+4. Outer Right Leg (Integrasi dan Pengujian FTSA): Melakukan eksekusi sistem dari
+   Fundamental ke Aplikasi. Purwarupa akan diuji dalam skenario Digital Twin. Evaluasi akhir
+   akan mengukur metrik Rasio Kompresi (𝐶𝑅 = 𝐾𝑝𝑒𝑟𝑠𝑦𝑎𝑟𝑎𝑡𝑎𝑛 /𝐾𝑠𝑜𝑙𝑢𝑠𝑖 ) dan tingkat koherensi
+   naratif yang dihasilkan oleh instrumen TISE 2.0.
+
+
+
+
+                       Gambar 7: Kerangka kerja validasi berkelanjutan.
+
+4. DAFTAR PUSTAKA
+1. Langi, A. Z. R., “Meta-TISE: Arsitektur Rekursif Kompresi Nilai dalam Sistem Rekayasa Cerdas
+   Triune-Intelligence”, TISE Whitepaper, 2026.
+2. Langi, A. Z. R., “Konsep TISE 2.0: Pemberdayaan Naratif Stakeholder”, TISE Whitepaper, 2026.
+3. Albrecht, K. “The Triune Intelligence Model.” Psychology Today.
+4. McAdams, D. P. “Narrative Identity.” Wikipedia/Psychological Research.
+5. Shannon, C. E. “A Mathematical Theory of Communication.” The Bell System Technical
+   Journal, 1948.
+
+5. INDIKATOR KEBERHASILAN (TARGET CAPAIAN)
+Target utama riset ini adalah publikasi pada jurnal IEEE Transactions on Systems, Man,
+and Cybernetics: Systems yang direncanakan untuk submisi pada 30 November 2026.
+(Gambar 8.) Secara institusional, riset ini bertujuan membuktikan konsep efisiensi kompresi nilai
+termodinamika dan mendukung pencapaian target reputasi akademik ITB menuju QS WUR 150.
+
+
+
+                                               9
+Sesuai mandat PPMI, target minimal adalah 1 publikasi Q1.
+
+ No.                Nama Jurnal       Q1   Judul (Tentatif)                Rencana Submit
+                    (Target)
+ 1.                 IEEE Transactions      Meta-Architecture of Triune- 30 Nov 2026
+                    on Systems, Man,       Intelligence Smart Engineering
+                    and     Cybernetics:   (TISE 3.0): A Prompt-Based
+                    Systems (Q1)           Framework for Narrative-
+                                           Empowered Multidisciplinary
+                                           Systems
+
+Publikasi akan mencantumkan acknowledgement yang diwajibkan: “This research is funded by Riset
+PPMI STEI 2026 - Riset Guru Besar…”
+
+
+
+
+                            Gambar 8: Tujuan dan Impak riset ini
+
+6. JADWAL PELAKSANAAN
+Sebagaimana di perloihatkan pada Gambar 9, Proyek ini direncanakan berjalan dari April hingga
+Desember 2026. Tahapan mencakup spesifikasi ASTF, pengembangan MAS, desain Digital Twin,
+hingga finalisasi manuskrip untuk jurnal Q1 pada bulan ke-9.
+Penelitian dilaksanakan selama 9 bulan (April – Desember 2026).
+• Bulan 1-2 (April-Mei): Outer Left W-Model (Spesifikasi ASTF & Model Konseptual PSKVE/
+  Energon).
+• Bulan 3-4 (Juni-Juli): Inner Left W-Model (Pengembangan Multi-Agent System & Integrasi
+  SysML v2).
+
+
+                                             10
+• Bulan 5-6 (Ags-Sep): Inner Right W-Model (Desain Skenario Validasi PICOC & Digital Twin).
+• Bulan 7-8 (Okt-Nov): Outer Right W-Model (Pengujian Kompresi Nilai 𝑉 = 𝑈 /𝐶, Evaluasi
+  Naskah TISE 2.0). Penulisan Draf Jurnal dengan Backward Strategy.
+• Bulan 9 (Desember): Finalisasi Manuscript, Submit ke Jurnal IEEE (Q1), dan Pelaporan PPMI.
+
+
+
+
+                            Gambar 9: Jadwal eksekusi terukur.
+
+7. PETA JALAN (ROAD MAP) RISET
+Berdasarkan rancangan proposal dan landasan konseptual dari sumber yang ada, berikut adalah
+rincian Peta Jalan (Road Map) Penelitian TISE (Triune-Intelligence Smart Engineering) yang
+menggambarkan evolusi sistem dari optimasi teknis hingga rekayasa meta-artefak autopoietik:
+
+
+
+
+                                            11
+                                Gambar 10: Peta jalan riset TISE.
+Tahap 1: Formulasi Fondasi Smart Engineering (Selesai) * Fokus Utama: Pemodelan
+Hukum ENERGON dan Ruang PSKVE. * Deskripsi: Tahap ini meletakkan dasar fundamental bagi
+TISE dengan mendefinisikan realitas ke dalam ruang 5 dimensi PSKVE: Product (Kapasitas kerja
+fisik), Service (Kapasitas pelayanan pemenuhan kebutuhan), Knowledge (Kapasitas intelektual/
+algoritma), Value (Kapasitas nilai ekonomi/sosial), dan Environment (Kapasitas lingkungan dan
+keberlanjutan). Sistem dimodelkan sebagai “Mesin ENERGON” (sebuah sistem yang mengubah
+potensi menjadi kerja kinetik) melalui siklus termodinamika tertutup: Input, Encoder, Core Storage/
+Flywheel, Decoder, dan Exhaust.
+Tahap 2: TISE 1.0 - Orkestrasi Agen Cerdas (Selesai) * Fokus Utama: Integrasi Triune
+Intelligence dan Siklus Otonom PUDAL. * Deskripsi: Tahap ini mengubah sistem pasif
+menjadi sistem cerdas dan agentik. Penelitian memadukan tiga kecerdasan (Natural, Artificial,
+Social) untuk menjalankan mesin operasional bernama siklus adaptif PUDAL: Perceive (sensor),
+Understand (diagnosis), Decision (alokasi sumber daya), Act (eksekusi gaya), dan Learning
+(pembaruan arsitektur). TISE 1.0 sangat berorientasi pada penyelesaian tugas teknis dan
+penutupan kesenjangan objektif dari Titik A ke Titik B.
+Tahap 3: TISE 2.0 - Paradigma Ko-Kreasi Naratif (Selesai) * Fokus Utama: Pemberdayaan
+Identitas Naratif Stakeholders dan Partitur Generatif. * Deskripsi: Memasukkan dimensi
+psikologi manusia yang mendalam, di mana manusia bukan sekadar eksekutor tugas, melainkan
+homo narrans (organisme pencerita). Pada tahap ini: * Naskah (Script) tidak lagi berupa instruksi
+kaku dari insinyur, melainkan representasi Identitas Naratif dinamis dari pengguna. * Prompts
+berubah dari sekadar instruksi tugas menjadi “katalisator reflektif” (seperti pertanyaan: “Apa
+artinya ini bagi Anda?”) yang mendorong Penalaran Otobiografis. * Insinyur TISE bertransformasi
+
+
+
+
+                                                12
+menjadi “Arsitek Lingkungan Naratif” yang merancang ruang seperti “Stasiun Penebusan” dan
+“Jalan Agensi” untuk memfasilitasi pertumbuhan pengguna.
+Tahap 4: TISE 3.0 - Meta-Artefak Rekursif (Fokus Riset PPMI 2026) * Fokus Utama:
+Orkestrasi Multi-Agent System (MAS) berbasis LLM dan Kompresi Semantik SysML v2. *
+Deskripsi: Inilah fokus penelitian Anda saat ini. Karena membangun ekosistem TISE 2.0 secara
+manual sangat kompleks, tahap ini bertujuan membangun Meta-Artefak, yaitu sistem autopoietik
+(“mesin yang membangun mesin”). Agen AI dibagi menjadi peran spesifik (seperti Meta-Architect,
+Generative Engineer, dan Critic). Meta-sistem ini menerima prompt (keinginan bahasa alami) dari
+pengguna dan memadatkannya (Value Compression) menjadi arsitektur formal untuk mencetak
+artefak TISE 2.0 secara otonom dan optimal secara komputasi.
+Tahap 5: Masa Depan - Skalabilitas Sosio-Teknis & Crowdsourced Engineering * Fokus
+Utama: Desain partisipatif Crowdsourced Engineering untuk tantangan berskala besar seperti
+Smart City. * Deskripsi: Setelah TISE 3.0 matang, peta jalan akan mengarah pada penyelesaian
+tantangan di level masyarakat (Social Intelligence). Sistem ini akan mengintegrasikan CrowdRE
+(Rekayasa Persyaratan Berbasis Kerumunan), di mana masyarakat bertindak sebagai “sensor
+entropi” (melaporkan masalah) dan “filter nilai” (memvalidasi solusi etis). Tujuannya adalah
+memperluas TISE untuk merekayasa tata kelola kota pintar, ekosistem kesehatan publik, dan
+jaringan energi yang berkelanjutan, menyelaraskan kinerja algoritma secara masif dengan nilai-
+nilai dan ekologi umat manusia.
+Sebagai summary: 1. Tahap 1 (Selesai): Formulasi Smart Engineering dasar (Model PSKVE dan
+Hukum ENERGON). 2. Tahap 2 (Selesai): TISE 1.0 (Integrasi Kecerdasan Triune & Siklus Otonom
+PUDAL). 3. Tahap 3 (Selesai): TISE 2.0 (Pemberdayaan Identitas Naratif, Partitur Generatif).
+4. Tahap 4 (Fokus Riset Ini - 2026): TISE 3.0 (Meta-Artefak Rekursif, Orkestrasi Multi-Agent
+LLM, Kompresi Semantik SysML v2). 5. Tahap 5 (Masa Depan): Desain partisipatif Crowdsourced
+Engineering massal untuk penyelesaian tantangan Smart City & Keberlanjutan Sosio-Teknis.
+
+
+
+
+                                              13
+                                               Biaya
+
+ 8 USULAN BIAYA RISET
+    8.1 Belanja Pegawai
+                                                  Jumlah
+                              Jumlah             Jam per Jumlah Bulan per
+   No    Pelaksana Kegiatan Orang Honor Perjam Bulan               Tahun          Jumlah Biaya
+   1         Peneliti Utama        1 Rp40,000.00      26                9         Rp37,440,000
+   2                 Peneliti      2 Rp30,000.00      10                9         Rp21,600,000
+   3         Asisten Peneliti                                                             Rp0
+   4                 Teknisi                                                              Rp0
+                                          Jumlah Total Biaya Honor (Rp)           Rp59,040,000
+
+8.2 Belanja Barang
+   No      Peralatan / Bahan                   Volume Satuan       Biaya Satuan   Jumlah Biaya
+        Harddisk Eksternal WD My
+   1    Passport 4TB                                   1    Unit    Rp2,840,000     Rp2,840,000
+        Power Supply UNIT 750W
+   2    Untuk VGA Card                                 1    Unit    Rp1,000,000     Rp1,000,000
+        VGA GEFORCE RTX 5070
+   3    12 GB                                          1    Unit   Rp12,000,000    Rp12,000,000
+        Samsung Galaxy Tab S10 FE
+   4    5G 8/128 GB                                 1    Unit     Rp7,500,000      Rp7,500,000
+                                                   Jumlah Total Biaya Barang      Rp23,340,000
+
+8.3 Belanja Jasa
+    a. Honor pihak ketiga non PNS ITB dan ITB-BHMN atau asisten mahasiswa
+                                                Jumlah
+                            Jumlah             Jam per Jumlah Bulan per
+   No    Pelaksana Kegiatan Orang Honor Perjam Bulan             Tahun            Jumlah Biaya
+   1                Asisten
+   2             Mahasiswa       1 Rp25,000.00      10                9            Rp9,000,000
+   4      Tenaga Penunjang                                                                Rp0
+                                        Jumlah Total Biaya Honor (Rp)              Rp9,000,000
+
+   b. Perjalanan
+   No      Peralatan / Bahan                   Volume Satuan       Biaya Satuan   Jumlah Biaya
+        Lokal dan Dalam Negeri
+   1                                                   9   Bulan    Rp1,000,000     Rp9,000,000
+
+                                               Jumlah Total Biaya Perjalanan       Rp9,000,000
+
+   c. Sewa Alat, Jasa Layanan, dan Lain-Lain
+   No     Peralatan / Bahan                    Volume Satuan       Biaya Satuan   Jumlah Biaya
+   1 AI Fees & Hosting                              9 Bulan        Rp1,100,000      Rp9,900,000
+      Internet High Speed & Cloud
+   2 Fees                                              9   Bulan    Rp1,000,000     Rp9,000,000
+      Registrasi Conference &
+   3 Publikasi                                         1    Unit   Rp30,720,000    Rp30,720,000
+
+                                                                                  Rp49,620,000
+
+
+                                               Page 1
+                                                BIODATA
+
+                           1. Nama                            : Armein Z R Langi
+                           2. Tempat dan tanggal lahir        : Tomohon, 17 Agustus 1962
+                           3. NIP                             : 131 902 360/ 19620817 199003 1 002
+                           4. Fakultas/Sekolah                : STEI-ITB
+                           5. Kelompok Keilmuan/Keahlian      : KK Teknologi Informasi
+                           6. Bidang Keahlian                 : Rekayasa Cerdas Sistem Pemrosesan
+                              Sinyal
+                           7. Jabatan Fungsional/Pangkat      : Guru Besar /Pembina Utama (IV/E)
+
+
+
+I. Riwayat Pendidikan
+           Jenjang                                 Tahun
+ No.                         Perguruan Tinggi                     Gelar                 Bidang
+          Pendidikan                               Lulus
+  1.          S1           ITB                      1987            Ir        Teknik Elektro
+                           University of                                      Teknik Komputer &
+  2.          S2                                    1992          M.Sc
+                           Manitoba, Canada                                   Elektro
+                           University of                                      Teknik Komputer &
+  3.          S3                                    1996          Ph.D
+                           Manitoba, Canada                                   Elektro
+II. Riwayat Kepangkatan
+   No.                Pangkat                      Golongan                       TMT
+   1.   CPNS (80%)                                    III/a                    01-03-1990
+   2.   Penata Muda                                   III/a                    01-03-1993
+   3.   Penata Muda Tk. I                            III/b                     01-10-1997
+   4.   Penata                                        III/c                    01-04-2000
+   5.   Penata Tingkat I                             III/d                     01-04-2010
+   6.   Pembina                                       IV/a                     01-04-2012
+   7.   Pembina Tingkat I                            IV/b                      01-04-2014
+   8.   Pembina Utama MUda                            IV/c                     01-04-2016
+   9.   Pembina Utama Madya                          IV/d                      01-04-2018
+  10    Pembina Utama                                 IV/e                     01-04-2021
+
+III. Riwayat Jabatan Fungsional
+   No.                         Nama Jabatan                                            TMT
+    1.   Asisten Ahli Madya                                              01-02-1995
+    2.   Asisten Ahli                                                    01-06-1997
+    3.   Lektor Muda                                                     01-01- 2000
+    4.   Lektor Madya                                                    -
+    5.   Lektor                                                          01-01-2001
+    6.   Lektor Kepala                                                   01-12-2009
+     7   Guru Besar                                                      01-06-2014
+IV. Jabatan Pimpinan di ITB (sejak kenaikan pangkat/jabatan terakhir)
+  No.                   Nama Jabatan                         Tahun                     Keterangan
+
+                                                                                             hal 1 dari 10
+                                           BIO DATA
+
+
+1.   Nama                    : Dr. Kusprasapta Mutijarsa, ST, MT.
+
+2.   Tempat dan tanggal lahir : Bandung, 18 November 1971
+
+3.   Pekerjaan               : Staf Pengajar
+                               Sekolah Teknik Elektro dan Informatika
+                               Institut Teknologi Bandung
+
+                                 Peneliti pada Autonomous Vehicle Research Group
+                                 Kelompok Keilmuan Teknologi Informasi
+                                 Sekolah Teknik Elektro dan Informatika
+                                 Institut Teknologi Bandung
+
+4.   Alamat kantor           : Laboratorium Sinyal dan Sistem
+                               Gedung Achmad Bakrie
+                               Labtek VIII lt. 3
+                               Jl. Ganesha No. 10 Bandung 40132
+                               Tel/fax (+62 – 22) – 2500985
+
+5. e-mail                    : Kusprasapta.mutijarsa@itb.ac.id
+                               kusprasapta.mutijarsa@gmail.com
+
+6.   Riwayat Pendidikan      :
+                                      ▪ 2008, Doktor Teknik Elektro dan Informatika
+                                        Institut Teknologi Bandung
+                                      ▪ 1999, Magister Teknik Elektro
+                                         Institut Teknologi Bandung
+                                      ▪ 1995, Sarjana Teknik Elektro
+                                         Institut Teknologi Bandung
+
+7. Bidang Keahlian           : Intelligent Autonomous System, Robotics, Autonomous
+                               Vehicle, Intelligent System, Artificial Intelligence, Intelligence
+                               Instrumentation, Internet of Things, Information Technology
+
+8. Riwayat Aktivitas :
+
+     ▪   2015-sekarang, Kontes Robot Indonesia, Direktorat Pembelajaran dan
+         Kemahasiswaan, Kementerian Riset, Teknologi dan Pendidikan TInggi, anggota Dewan
+         Juri Nasional
+     ▪   2012, Kontes Robot KRI KRCI Tingkat Regional dan KRI KRCI KRSI Tingkat Nasional,
+         Kementerian Pendidikan Nasional, Ketua Panitia Penyelenggara
+     ▪   2012, Delegasi Robot Cerdas Indonesia pada Kompetisi Robot Internasional Trinity
+         College Fire Fighting Home Robot Contest, Connecticut USA, Ketua Delegasi
+Curriculum Vitae
+
+Full name    : Ir. I Gusti Bagus Baskara Nugraha, S.T., M.T., Ph.D
+Email        : baskara@itb.ac.id
+Phone        : +628112032401
+
+Position
+
+   1. Associate Professor
+      School of Electrical Engineering and Informatics, Bandung Institute of Technology,
+      Indonesia.
+
+   2. Chair of the Undergraduate Program of Information Systems and Technology,
+      Bandung Institute of Technology (2023-Now)
+
+Research Interests
+
+   1. Information systems and technology
+   2. Smart cities
+
+
+Work Experience
+
+2023 – Now
+Associate Professor
+School of Electrical Engineering and Informatics, Bandung Institute of Technology
+
+2012 – 2023
+Assistant Professor
+School of Electrical Engineering and Informatics, Bandung Institute of Technology
+
+2007 – 2011
+Assistant Professor
+Graduate School of Information Systems, The University of Electro-Communications, Tokyo.
+
+
+Formal Education
+2003 : Insinyur (Ir.)
+       Program Profesi Insinyur, Bandung Institute of Technology, Indonesia.
+2006 : PhD in Information Systems
+       Graduate School of Information Systems, The University of Electro-Communications,
+       Tokyo, Japan.
+2001: Masters of Engineering (M.Eng)
+       Electrical Engineering, Bandung Institute of Technology, Indonesia.
+1999 : Bachelor of Engineering (B.Eng)
+       Electrical Engineering, Bandung Institute of Technology, Indonesia.
+

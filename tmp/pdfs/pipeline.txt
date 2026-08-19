@@ -1,0 +1,78 @@
+                   Publication Pipeline 2026
+                                Armein Z. R. Langi
+
+
+
+
+No   Paper Title                    Target Journal   Quartile    Status
+1    Correction: Orchestrating      Frontiers in       Q1       published
+     value co-creation in digital   Education
+     education using the
+     TISE-VALORIZE
+     framework: from knowing
+     to becoming
+2    Orchestrating value            Frontiers in       Q1       published
+     co-creation in digital         Education
+     education using the
+     TISE-VALORIZE
+     framework: from knowing
+     to becoming
+3    A Hybrid Systematic            JOIV:            Q2/Q3      published
+     Literature Review of           International
+     User-Centric QoE and QoS       Journal on
+     Evaluation Methods in          Informatics
+     Video Streaming Services       Visualization
+4    A Synergy-Driven Portfolio     JOIV:            Q2/Q3      published
+     Optimization Model Under       International
+     Mixed Financing                Journal on
+                                    Informatics
+                                    Visualization
+5    An Integrated Practical        Ingenierie des     Q3       published
+     Assessment Model for Web       Systemes
+     Programming Education in       d’Information
+     Smart Campus
+     Environments
+
+
+
+
+                                             1
+No    Paper Title                  Target Journal        Quartile          Status
+6     A Smart Management           Asia-Pacific            Q3            published
+      Framework for Higher         Journal of
+      Education Accreditation      Information
+      Based on the PUDAL           Technology &
+      Engine and V-Model           Multimedia
+      Approach.
+7     Focus Detection Using        Health                 Non-Q          published
+      EEG: Trends, Challenges,     Information         (Conference
+      Advantages, Application      Science: 14th       Proceedings)
+      Areas, Background            International
+                                   Conference, HIS
+                                   2025
+8     Structured Collaborative     IEEE Transactions       Q1           under review
+      Problem Solving Using        on Education
+      Isomorphic Task Design:
+      Evidence on Engineering
+      Student Outcomes
+9     GRACE and MyGRACE:           IEEE Transactions       Q1               draft
+      Designing and Evaluating a   on Technology and
+      Narrative-Centered           Society
+      Socio-Technical Ecosystem
+      for Older-Adult Wellbeing
+10    Managing Pre-Deployment      IEEE Transactions       Q1               draft
+      Mission-Oriented Service     on Engineering
+      Ecosystems: A                Management
+      Multi-Stakeholder
+      Recommendation Core and
+      Digital-Twin Design
+      Method
+
+
+Valid status values: draft, submitted, under review, accepted, and published.
+
+
+
+
+                                           2
+
